@@ -43,11 +43,19 @@ function showText($text)
 </table>
 <![endif]-->
 
-<?php showText('Мы знаем, что в декабре будет ажиотаж: сроки срываться, телефоны будут гореть, а цены расти.'); ?>
-Поэтому мы заранее решили подумать и предложить варианты новогодних подарков для ваших сотрудников и партнеров.
+<?php
+  $textToShow = 'Мы знаем, что в декабре будет ажиотаж: сроки срываться, телефоны будут гореть, а цены расти.';
+  showText($textToShow);
+
+  $textToShow = 'Поэтому мы заранее решили подумать и предложить варианты новогодних подарков для ваших сотрудников и партнеров.';
+  showText($textToShow);
+ ?>
 
 <hr/>
-<?php showText('<span style="font-weight: bold">Небольшой бюджет</span> (10-20 тысяч рублей или до 300 руб/чел.)'); ?>
+<?php 
+  $textToShow = '<span style="font-weight: bold">Небольшой бюджет</span> (10-20 тысяч рублей или до 300 руб/чел.)';
+  showText($textToShow);
+?>
 
 <!-- TABLE (START) -->
 
@@ -81,11 +89,13 @@ function showText($text)
                 <tr>
                   <td class="inner">
 
-                    кружка
-                    снежинки с вашим логотипом
-                    плакаты и календари
-                    коврики для мышек
-                    шоколадные наборы
+                    <?php 
+                      showText('<span class="disc">●</span>кружка');
+                      showText('<span class="disc">●</span>снежинки с вашим логотипом');
+                      showText('<span class="disc">●</span>плакаты и календари');
+                      showText('<span class="disc">●</span>коврики для мышек');
+                      showText('<span class="disc">●</span>шоколадные наборы'); 
+                    ?>
 
                   </td>
                 </tr>

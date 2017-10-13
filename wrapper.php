@@ -145,6 +145,12 @@
     }
 
   }
+
+  .disc {
+    color: #527695;
+    line-height: 16px;
+    text-align: center;
+  }
   </style>
 </head>
 <body>
