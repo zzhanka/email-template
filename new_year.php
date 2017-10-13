@@ -11,16 +11,19 @@ if ($isTest) {
 
 function showText($text)
 {
-  echo "<font color='#666666' face='Arial, Tahoma, Geneva, sans-serif' style='font-size: 14px; line-height: 16px;'><span style='font-family: Arial, Tahoma, Geneva, sans-serif; color: #666666; font-size: 14px; line-height: 16px;'>$text</span></font>";
+  echo "<font color='#666666' face='Arial, Tahoma, Geneva, sans-serif' style='font-size: 16px; line-height: 18px;'><span style='font-family: Arial, Tahoma, Geneva, sans-serif; color: #666666; font-size: 16px; line-height: 18px;'>$text</span></font>";
 }
 
-$verticalPadding = '<td style="width:15px;max-width:15px;min-width:15px;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" width="15"></td>'
+$verticalPadding = '<td style="width:15px;max-width:15px;min-width:15px;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" width="15"></td>';
+
+$br = '<div style="height: 5px; line-height: 5px; font-size: 7px;"></div>';
+$horizontalPadding = '<div style="height: 9px; line-height: 9px; font-size: 7px;"></div>';
 
 ?>
 
 
-Закажите заранее, пока цены низкие и есть время на выбор
-
+<p class="h2">Закажите заранее, пока цены низкие и есть время на выбор</p>
+<div style="height: 9px; line-height: 9px; font-size: 7px;"></div>
 <!-- BANNER (START) -->
 
 <!--[if (gte mso 9)|(IE)]>
@@ -48,6 +51,8 @@ $verticalPadding = '<td style="width:15px;max-width:15px;min-width:15px;padding-
 <![endif]-->
 
 <!-- BANNER (END) -->
+
+<?=$horizontalPadding;?>
 
 <!--[if (gte mso 9)|(IE)]>
 <table width="600" align="center">
@@ -84,11 +89,11 @@ $verticalPadding = '<td style="width:15px;max-width:15px;min-width:15px;padding-
 </table>
 <![endif]-->
 
-<div style="height: 9px; line-height: 9px; font-size: 7px;"></div>
+<?=$horizontalPadding;?>
 <hr/>
-<div style="height: 9px; line-height: 9px; font-size: 7px;"></div>
+<?=$horizontalPadding;?>
 <?php 
-  $textToShow = '<span style="font-weight: bold">Небольшой бюджет</span> (10-20 тысяч рублей или до 300 руб/чел.)';
+  $textToShow = '<span style="font-weight: bold"><b>Небольшой бюджет</b></span> (10-20 тысяч рублей или до 300 руб/чел.)';
   showText($textToShow);
 ?>
 <div style="height: 9px; line-height: 9px; font-size: 7px;"></div>
@@ -124,14 +129,19 @@ $verticalPadding = '<td style="width:15px;max-width:15px;min-width:15px;padding-
             <div class="column">
               <table width="100%">
                 <tr>
-                  <td class="inner">
+                  <td class="inner" align="left" valign="top">
 
                     <?php 
-                      showText('<span class="disc">●</span>кружка');
-                      showText('<span class="disc">●</span>снежинки с вашим логотипом');
-                      showText('<span class="disc">●</span>плакаты и календари');
-                      showText('<span class="disc">●</span>коврики для мышек');
-                      showText('<span class="disc">●</span>шоколадные наборы'); 
+                      showText('<span class="disc">●</span> кружка</p>');
+                      $br;
+                      showText('<span class="disc">●</span> снежинки с вашим логотипом');
+                      $br;
+                      showText('<span class="disc">●</span> плакаты и календари');
+                      $br;
+                      showText('<span class="disc">●</span> коврики для мышек');
+                      $br;
+                      showText('<span class="disc">●</span> шоколадные наборы');
+                      $br;
                     ?>
 
                   </td>
