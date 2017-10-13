@@ -14,10 +14,10 @@ function showText($text)
   echo "<font color='#666666' face='Arial, Tahoma, Geneva, sans-serif' style='font-size: 16px; line-height: 18px;'><span style='font-family: Arial, Tahoma, Geneva, sans-serif; color: #666666; font-size: 16px; line-height: 18px;'>$text</span></font>";
 }
 
-$verticalPadding = '<td style="width:15px;max-width:15px;min-width:15px;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" width="15"></td>';
+$horizontalPadding = '<td style="width:15px;max-width:15px;min-width:15px;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" width="15"></td>';
 
 $br = '<div style="height: 5px; line-height: 5px; font-size: 7px;"></div>';
-$horizontalPadding = '<div style="height: 9px; line-height: 9px; font-size: 7px;"></div>';
+$verticalPadding = '<div style="height: 9px; line-height: 9px; font-size: 7px;"></div>';
 
 ?>
 
@@ -52,7 +52,7 @@ $horizontalPadding = '<div style="height: 9px; line-height: 9px; font-size: 7px;
 
 <!-- BANNER (END) -->
 
-<?=$horizontalPadding;?>
+<?=$verticalPadding;?>
 
 <!--[if (gte mso 9)|(IE)]>
 <table width="600" align="center">
@@ -89,9 +89,9 @@ $horizontalPadding = '<div style="height: 9px; line-height: 9px; font-size: 7px;
 </table>
 <![endif]-->
 
-<?=$horizontalPadding;?>
+<?=$verticalPadding;?>
 <hr/>
-<?=$horizontalPadding;?>
+<?=$verticalPadding;?>
 <?php 
   $textToShow = '<span style="font-weight: bold"><b>Небольшой бюджет</b></span> (10-20 тысяч рублей или до 300 руб/чел.)';
   showText($textToShow);
@@ -116,10 +116,10 @@ $horizontalPadding = '<div style="height: 9px; line-height: 9px; font-size: 7px;
             <div class="column">
               <table width="100%">
                 <tr>
-                  <td class="inner">
-                    <div style="display: block; max-width: 275px;"><a href="https://printio.ru/full_print_tees/55667"><img alt="img" src="<?=$img2src;?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 275px; max-width: 100%;" /></a></div>
+                  <td class="inner" valign="top">
+                    <div style="display: block; max-width: 372px;"><a href="https://printio.ru/full_print_tees/55667"><img alt="img" src="<?=$img2src;?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 372px; max-width: 100%;" /></a></div>
                   </td>
-                  $verticalPadding
+                  <?=$horizontalPadding;?>
                 </tr>
               </table>
             </div>
@@ -129,19 +129,19 @@ $horizontalPadding = '<div style="height: 9px; line-height: 9px; font-size: 7px;
             <div class="column">
               <table width="100%">
                 <tr>
-                  <td class="inner" align="left" valign="top">
+                  <td class="inner" align="left" valign="center">
 
                     <?php 
-                      showText('<span class="disc">●</span> кружка</p>');
-                      $br;
+                      showText('<span class="disc">●</span> кружка');
+                      echo $br;
                       showText('<span class="disc">●</span> снежинки с вашим логотипом');
-                      $br;
+                      echo $br;
                       showText('<span class="disc">●</span> плакаты и календари');
-                      $br;
+                      echo $br;
                       showText('<span class="disc">●</span> коврики для мышек');
-                      $br;
+                      echo $br;
                       showText('<span class="disc">●</span> шоколадные наборы');
-                      $br;
+                      echo $br;
                     ?>
 
                   </td>
