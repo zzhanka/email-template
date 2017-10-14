@@ -18,27 +18,32 @@ function showText($text)
 
 function showHeaderText($text)
 {
-  echo "<font color='#231f1c' face='verdana, arial, sans-serif' style='font-size: 16px; line-height: 18px;'><span style='font-family: verdana, arial, sans-serif; color: #231f1c; font-size: 16px; line-height: 18px;'><b>$text</b></span></font>";
+  echo "<font color='#231f1c' face='verdana, arial, sans-serif' style='font-size: 16px; line-height: 18px;'><span style='font-family: verdana, arial, sans-serif; color: #231f1c; font-size: 16px; line-height: 18px;'>$text</span></font>";
 }
+
 
 $horizontalPadding = '<td style="width:15px;max-width:15px;min-width:15px;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" width="15"></td>';
 
 $br = '<div style="height: 5px; line-height: 5px; font-size: 7px;"></div>';
-$verticalPadding = '<div style="height: 9px; line-height: 9px; font-size: 7px;"></div>';
+$xs_verticalPadding = '<div style="height: 9px; line-height: 9px; font-size: 7px;"></div>';
+$s_verticalPadding = '<div style="height: 15px; line-height: 9px; font-size: 7px;"></div>';
+$m_verticalPadding = '<div style="height: 20px; line-height: 9px; font-size: 7px;"></div>';
+$l_verticalPadding = '<div style="height: 30px; line-height: 9px; font-size: 7px;"></div>';
+$xl_verticalPadding = '<div style="height: 50px; line-height: 9px; font-size: 7px;"></div>';
 
 ?>
 
-<?= $verticalPadding; ?>
+<?= $m_verticalPadding; ?>
 <table class="outer" align="center">
   <tr>
     <?= $horizontalPadding; ?>
     <td>
-      <?php showHeaderText('Закажите заранее, пока цены низкие и есть время на выбор'); ?>
+      <?php showHeaderText('<b>Закажите заранее, пока цены низкие и есть время на выбор</b>'); ?>
     </td>
     <?= $horizontalPadding; ?>
   </tr>
 </table>
-<?= $verticalPadding; ?>
+<?= $m_verticalPadding; ?>
 
 <!-- BANNER (START) -->
 
@@ -68,7 +73,7 @@ $verticalPadding = '<div style="height: 9px; line-height: 9px; font-size: 7px;">
 
 <!-- BANNER (END) -->
 
-<div style="height: 20px; line-height: 20px; font-size: 7px;"></div>
+<?= $m_verticalPadding; ?>
 
 <!--[if (gte mso 9)|(IE)]>
 <table width="600" align="center">
@@ -108,11 +113,11 @@ $verticalPadding = '<div style="height: 9px; line-height: 9px; font-size: 7px;">
 </table>
 <![endif]-->
 
-<div style="height: 30px; line-height: 30px; font-size: 7px;"></div>
+<?= $l_verticalPadding; ?>
 
 <hr/>
 
-<?=$verticalPadding;?>
+<?= $m_verticalPadding; ?>
 <table class="outer" align="center">
   <tr>
     <?= $horizontalPadding; ?>
@@ -125,7 +130,7 @@ $verticalPadding = '<div style="height: 9px; line-height: 9px; font-size: 7px;">
     <?= $horizontalPadding; ?>
   </tr>
 </table>
-<?= $verticalPadding; ?>
+<?= $m_verticalPadding; ?>
 
 <!-- TABLE (START) -->
 
@@ -193,9 +198,9 @@ $verticalPadding = '<div style="height: 9px; line-height: 9px; font-size: 7px;">
 
 <!-- TABLE (END) -->
 
-<?= $verticalPadding; ?>
+<?= $m_verticalPadding; ?>
 <hr/>
-<div style="height: 30px; line-height: 30px; font-size: 7px;"></div>
+<?= $l_verticalPadding; ?>
 
 <table class="outer" align="center">
   <tr>
@@ -209,7 +214,7 @@ $verticalPadding = '<div style="height: 9px; line-height: 9px; font-size: 7px;">
     <?= $horizontalPadding; ?>
   </tr>
 </table>
-<?= $verticalPadding; ?>
+<?= $m_verticalPadding; ?>
 
 <!-- TABLE (START) -->
 
@@ -274,11 +279,10 @@ $verticalPadding = '<div style="height: 9px; line-height: 9px; font-size: 7px;">
 
 <!-- TABLE (END) -->
 
-<?=$verticalPadding;?>
+<?= $m_verticalPadding; ?>
 <hr/>
-<div style="height: 30px; line-height: 30px; font-size: 7px;"></div>
+<?= $l_verticalPadding; ?>
 
-<?= $verticalPadding; ?>
 <table class="outer" align="center">
   <tr>
     <?= $horizontalPadding; ?>
@@ -291,7 +295,7 @@ $verticalPadding = '<div style="height: 9px; line-height: 9px; font-size: 7px;">
     <?= $horizontalPadding; ?>
   </tr>
 </table>
-<?= $verticalPadding; ?>
+<?= $m_verticalPadding; ?>
 
 <!-- BANNER (START) -->
 
@@ -320,6 +324,8 @@ $verticalPadding = '<div style="height: 9px; line-height: 9px; font-size: 7px;">
 <![endif]-->
 
 <!-- BANNER (END) --> 
+
+<?= $m_verticalPadding; ?>
 <table class="outer" align="left">
   <tr>
     <?= $horizontalPadding; ?>
@@ -338,7 +344,7 @@ $verticalPadding = '<div style="height: 9px; line-height: 9px; font-size: 7px;">
   </tr>
 </table>
 
-<div style="height: 30px; line-height: 30px; font-size: 7px;"></div>
+<?= $l_verticalPadding; ?>
 
 <!--[if (gte mso 9)|(IE)]>
 <table width="600" align="center">
@@ -356,7 +362,7 @@ $verticalPadding = '<div style="height: 9px; line-height: 9px; font-size: 7px;">
                 <tr>
                   <td style="width:15px;max-width:15px;min-width:15px;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" width="15"></td>
                   <td align="center" style="padding: 0px; text-align: center;">
-                    <?php showText('Специально для вас будем рады сделать макеты календарей, блокнотов, ковриков для мышки и многое другое'); ?> 
+                    <?php showHeaderText('Специально для вас будем рады сделать макеты календарей, блокнотов, ковриков для мышки и многое другое'); ?> 
 
                     <div style="height: 20px; line-height: 20px; font-size: 7px;"></div>
 
