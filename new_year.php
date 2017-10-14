@@ -192,12 +192,11 @@ $verticalPadding = '<div style="height: 9px; line-height: 9px; font-size: 7px;">
       <![endif]-->
 
 <!-- TABLE (END) -->
-<div style="height: 30px; line-height: 30px; font-size: 7px;"></div>
-
-<?=$verticalPadding;?>
-<hr/>
 
 <?= $verticalPadding; ?>
+<hr/>
+<div style="height: 30px; line-height: 30px; font-size: 7px;"></div>
+
 <table class="outer" align="center">
   <tr>
     <?= $horizontalPadding; ?>
