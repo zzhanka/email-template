@@ -566,7 +566,7 @@ $xl_verticalPadding = '<div style="height: 50px; line-height: 9px; font-size: 7p
                 <tr>
                   <td class="inner">
                     <div style="display: block; max-width: 270px;"><a href="https://printio.ru/full_print_tees/55667"><img alt="img" src="<?= $img10src; ?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 270px; max-width: 100%;" /></a></div>
-                    <?= $xs_verticalPadding; ?>
+                    <?= $s_verticalPadding; ?>
                     <?php showText('белые кружки с печатью'); ?>
                   </td>
                 </tr>
@@ -580,8 +580,86 @@ $xl_verticalPadding = '<div style="height: 50px; line-height: 9px; font-size: 7p
                 <tr>
                   <td class="inner">
                     <div style="display: block; max-width: 270px;"><a href="https://printio.ru/full_print_tees/53293"><img alt="img" src="<?= $img11src; ?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 270px; max-width: 100%;" /></a></div>
-                    <?= $xs_verticalPadding; ?>
+                    <?= $s_verticalPadding; ?>
                     <?php showText('кружки с цветными ручками и ободком с печатью'); ?>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+          </td>
+        </tr>
+        <tr>
+          <td class="two-column">
+            <!--[if (gte mso 9)|(IE)]>
+            <table width="100%">
+            <tr>
+            <td width="50%" valign="top">
+            <![endif]-->
+            <div class="column">
+              <table width="100%">
+                <tr>
+                  <td class="inner">
+                    <div style="display: block; max-width: 270px;"><a href="https://printio.ru/full_print_tees/55667"><img alt="img" src="<?= $img12src; ?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 270px; max-width: 100%;" /></a></div>
+                    <?= $s_verticalPadding; ?>
+                    <?php showText('футболка с полной запечаткой мужская'); ?>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <!--[if (gte mso 9)|(IE)]>
+            </td><td width="50%" valign="top">
+            <![endif]-->
+            <div class="column">
+              <table width="100%">
+                <tr>
+                  <td class="inner">
+                    <div style="display: block; max-width: 270px;"><a href="https://printio.ru/full_print_tees/53293"><img alt="img" src="<?= $img13src; ?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 270px; max-width: 100%;" /></a></div>
+                    <?= $s_verticalPadding; ?>
+                    <?php showText('футболка с полной запечаткой женская'); ?>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+          </td>
+        </tr>
+        <tr>
+          <td class="two-column">
+            <!--[if (gte mso 9)|(IE)]>
+            <table width="100%">
+            <tr>
+            <td width="50%" valign="top">
+            <![endif]-->
+            <div class="column">
+              <table width="100%">
+                <tr>
+                  <td class="inner">
+                    <div style="display: block; max-width: 270px;"><a href="https://printio.ru/full_print_tees/55667"><img alt="img" src="<?= $img14src; ?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 270px; max-width: 100%;" /></a></div>
+                    <?= $s_verticalPadding; ?>
+                    <?php showText('свитшот с полной запечаткой'); ?>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <!--[if (gte mso 9)|(IE)]>
+            </td><td width="50%" valign="top">
+            <![endif]-->
+            <div class="column">
+              <table width="100%">
+                <tr>
+                  <td class="inner">
+                    <div style="display: block; max-width: 270px;"><a href="https://printio.ru/full_print_tees/53293"><img alt="img" src="<?= $img15src; ?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 270px; max-width: 100%;" /></a></div>
+                    <?= $s_verticalPadding; ?>
+                    <?php showText('свитшот унисекс'); ?>
                   </td>
                 </tr>
               </table>
@@ -601,3 +679,118 @@ $xl_verticalPadding = '<div style="height: 50px; line-height: 9px; font-size: 7p
       <![endif]-->
 
 <!-- TABLE (END) -->
+
+<?= $l_verticalPadding; ?>
+
+<!-- BANNER (START) -->
+<!--[if (gte mso 9)|(IE)]>
+<table width="600" align="center">
+<tr>
+<td>
+<![endif]-->
+<table class="outer" align="center">
+  <tr>
+    <td>
+      <table class="outer" align="center">
+        <tr>
+          <td class="full-width-image">
+            <img src="<?= $img16src; ?>" alt="объёмные наклейки" />
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<!--[if (gte mso 9)|(IE)]>
+</td>
+</tr>
+</table>
+<![endif]-->
+<!-- BANNER (END) --> 
+<?= $m_verticalPadding; ?>
+<table class="outer" align="center">
+  <tr>
+    <?= $horizontalPadding; ?>
+    <td>
+      <?php showText('объёмные наклейки'); ?>
+    </td>
+    <?= $horizontalPadding; ?>
+  </tr>
+</table>
+
+
+<?= $l_verticalPadding; ?>
+
+<!-- BANNER (START) -->
+<!--[if (gte mso 9)|(IE)]>
+<table width="600" align="center">
+<tr>
+<td>
+<![endif]-->
+<table class="outer" align="center">
+  <tr>
+    <td>
+      <table class="outer" align="center">
+        <tr>
+          <td class="full-width-image">
+            <img src="<?= $img17src; ?>" alt="набор новогодних наклеек" />
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<!--[if (gte mso 9)|(IE)]>
+</td>
+</tr>
+</table>
+<![endif]-->
+<!-- BANNER (END) --> 
+<?= $m_verticalPadding; ?>
+<table class="outer" align="center">
+  <tr>
+    <?= $horizontalPadding; ?>
+    <td>
+      <?php showText('набор новогодних наклеек'); ?>
+    </td>
+    <?= $horizontalPadding; ?>
+  </tr>
+</table>
+
+<?= $l_verticalPadding; ?>
+
+<!-- BANNER (START) -->
+<!--[if (gte mso 9)|(IE)]>
+<table width="600" align="center">
+<tr>
+<td>
+<![endif]-->
+<table class="outer" align="center">
+  <tr>
+    <td>
+      <table class="outer" align="center">
+        <tr>
+          <td class="full-width-image">
+            <img src="<?= $img18src; ?>" alt="шоколадные наборы" />
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<!--[if (gte mso 9)|(IE)]>
+</td>
+</tr>
+</table>
+<![endif]-->
+<!-- BANNER (END) --> 
+<?= $m_verticalPadding; ?>
+<table class="outer" align="center">
+  <tr>
+    <?= $horizontalPadding; ?>
+    <td>
+      <?php showText('шоколадные наборы'); ?>
+    </td>
+    <?= $horizontalPadding; ?>
+  </tr>
+</table>
