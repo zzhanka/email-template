@@ -321,16 +321,25 @@ $verticalPadding = '<div style="height: 9px; line-height: 9px; font-size: 7px;">
 <![endif]-->
 
 <!-- BANNER (END) --> 
+<table class="outer" align="left">
+  <tr>
+    <?= $horizontalPadding; ?>
+    <td>
+      <?php 
+        showText('<span class="disc">●</span> Уютные пледы с печатью или вышивкой вашего логотипа');
+        echo $br;
+        showText('<span class="disc">●</span> Холсты и картины для особых клиентов');
+        echo $br;
+        showText('<span class="disc">●</span> Набор из трех предметов + комплект наклеек для украшения офиса в подарок');
+        echo $br;
+        showText('<span class="disc">●</span> Персонализированная упаковка с вашими пожеланиями сотрудникам');
+      ?>
+    </td>
+    <?= $horizontalPadding; ?>
+  </tr>
+</table>
 
-<?php 
-  showText('<span class="disc">●</span> Уютные пледы с печатью или вышивкой вашего логотипа');
-  echo $br;
-  showText('<span class="disc">●</span> Холсты и картины для особых клиентов');
-  echo $br;
-  showText('<span class="disc">●</span> Набор из трех предметов + комплект наклеек для украшения офиса в подарок');
-  echo $br;
-  showText('<span class="disc">●</span> Персонализированная упаковка с вашими пожеланиями сотрудникам');
-?>
+<div style="height: 30px; line-height: 30px; font-size: 7px;"></div>
 
 <!--[if (gte mso 9)|(IE)]>
 <table width="600" align="center">
@@ -347,7 +356,7 @@ $verticalPadding = '<div style="height: 9px; line-height: 9px; font-size: 7px;">
               <tbody>
                 <tr>
                   <td style="width:15px;max-width:15px;min-width:15px;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" width="15"></td>
-                  <td style="padding: 0px; text-align: center;">
+                  <td align="center" style="padding: 0px; text-align: center;">
                     <?php showText('Специально для вас будем рады сделать макеты календарей, блокнотов, ковриков для мышки и многое другое'); ?> 
 
                     <div style="height: 20px; line-height: 20px; font-size: 7px;"></div>
@@ -355,6 +364,7 @@ $verticalPadding = '<div style="height: 9px; line-height: 9px; font-size: 7px;">
                     <!-- BUTTON (START) -->
                     <table cellpadding="0" cellspacing="0" border="0" width="250" style="width: 250px !important; max-width: 250px; min-width: 250px; background: #00cf67; border-radius: 3px;">
                       <tr>
+                        <?= $horizontalPadding; ?>
                         <td align="center" valign="middle" height="62">
                          <a href="#" target="_blank" style="display: block; width: 100%; height: 62px; font-family: Verdana, Tahoma, Geneva, sans-serif; color: #ffffff; font-size: 16px; line-height: 62px; text-decoration: none; white-space: nowrap;">
                           <font face="Verdana, Tahoma, Geneva, sans-serif" color="#ffffff" style="font-size: 16px; line-height: 62px; text-decoration: none; white-space: nowrap;">
@@ -362,6 +372,7 @@ $verticalPadding = '<div style="height: 9px; line-height: 9px; font-size: 7px;">
                           </font>
                          </a>
                         </td>
+                        <?= $horizontalPadding; ?>
                       </tr>
                     </table>
                     <!-- BUTTON (END) -->
@@ -369,9 +380,10 @@ $verticalPadding = '<div style="height: 9px; line-height: 9px; font-size: 7px;">
                     <div style="height: 20px; line-height: 20px; font-size: 7px;"></div>
 
                     <?php showText('Или напишите запрос на <a href="mailto:contact@printio.ru">contact@printio.ru</a>'); ?>
+                    <div style="height: 20px; line-height: 20px; font-size: 7px;"></div>
 
                   </td>
-                  <td style="width:15px;max-width:15px;min-width:15px;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" width="15"></td>
+                  <?= $horizontalPadding; ?>
                 </tr>
               </tbody>
             </table>
