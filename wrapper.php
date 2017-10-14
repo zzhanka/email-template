@@ -153,6 +153,19 @@
   }
   </style>
 </head>
+
+<?php
+$isTest = true;
+
+if ($isTest) {
+  $logo = 'images/logo.jpg';
+} else {
+  $logo = '/ru/user_file?resource=images&amp;user_id=1771961&amp;name=/header/logo.jpg';
+}
+
+?>
+
+
 <body>
   <center class="wrapper">
     <div class="webkit">
@@ -192,7 +205,7 @@
                 <tr>
                   <td class="inner" style="padding: 0">
                     <div style="height: 15px; line-height: 15px; font-size: 7px;"></div>
-                    <div class="m-center" style="max-width: 140px;"><a target="_blank" style="text-decoration: none; display: block; width: 140px; max-width: 100%;" href="https://printio.ru/"><img alt="Printio" border="0" width="140" height="61px" src="/ru/user_file?resource=images&amp;user_id=1771961&amp;name=/header/logo.jpg" style="display: block; width: 140px; max-width: 100%;" /></a></div>
+                    <div class="m-center" style="max-width: 140px;"><a target="_blank" style="text-decoration: none; display: block; width: 140px; max-width: 100%;" href="https://printio.ru/"><img alt="Printio" border="0" width="140" height="61px" src="<?= $logo; ?>" style="display: block; width: 140px; max-width: 100%;" /></a></div>
                     <div style="height: 15px; line-height: 15px; font-size: 7px;"></div>
                   </td>
                 </tr>
