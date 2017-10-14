@@ -121,7 +121,7 @@ $verticalPadding = '<div style="height: 9px; line-height: 9px; font-size: 7px;">
                   <td class="inner" valign="top">
                     <div style="display: block; max-width: 372px;"><a href="https://printio.ru/full_print_tees/55667"><img alt="img" src="<?=$img2src;?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 372px; max-width: 100%;" /></a></div>
                   </td>
-                  <?=$horizontalPadding;?>
+                  <?= $horizontalPadding; ?>
                 </tr>
               </table>
             </div>
@@ -262,7 +262,7 @@ $verticalPadding = '<div style="height: 9px; line-height: 9px; font-size: 7px;">
       <table class="outer" align="center">
         <tr>
           <td class="full-width-image">
-            <img src="<?=$img4src;?>" alt="Эксклюзивные подарки" />
+            <img src="<?= $img4src; ?>" alt="Эксклюзивные подарки" />
           </td>
         </tr>
       </table>
@@ -323,7 +323,7 @@ $verticalPadding = '<div style="height: 9px; line-height: 9px; font-size: 7px;">
 
                     <div style="height: 20px; line-height: 20px; font-size: 7px;"></div>
 
-                    <?php showText('Или напишите запрос на <a href="mailto:contact@printio.ru">contact@printio.ru</a>'; ?>
+                    <?php showText('Или напишите запрос на <a href="mailto:contact@printio.ru">contact@printio.ru</a>'); ?>
 
                   </td>
                   <td style="width:15px;max-width:15px;min-width:15px;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" width="15"></td>
