@@ -99,7 +99,19 @@
     vertical-align: top;
   }
 
+  .two-column .column_60 {
+    width: 100%;
+    max-width: 372px;
+    display: inline-block;
+    vertical-align: top;
+  }
 
+  .two-column .column_40 {
+    width: 100%;
+    max-width: 228px;
+    display: inline-block;
+    vertical-align: top;
+  }
   /*Three column layout*/
   .three-column {
       text-align: center;

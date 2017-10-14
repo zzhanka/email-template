@@ -147,7 +147,7 @@ $xl_verticalPadding = '<div style="height: 50px; line-height: 9px; font-size: 7p
             <tr>
             <td width="50%" valign="top">
             <![endif]-->
-            <div class="column">
+            <div class="column_60">
               <table width="100%">
                 <tr>
                   <td class="inner" valign="top">
@@ -160,7 +160,7 @@ $xl_verticalPadding = '<div style="height: 50px; line-height: 9px; font-size: 7p
             <!--[if (gte mso 9)|(IE)]>
             </td><td width="50%" valign="top">
             <![endif]-->
-            <div class="column">
+            <div class="column_40">
               <table width="100%">
                 <tr>
                   <td class="inner" align="left" valign="center">
@@ -231,7 +231,7 @@ $xl_verticalPadding = '<div style="height: 50px; line-height: 9px; font-size: 7p
             <tr>
             <td width="50%" valign="top">
             <![endif]-->
-            <div class="column">
+            <div class="column_60">
               <table width="100%">
                 <tr>
                   <td class="inner" valign="top">
@@ -244,7 +244,7 @@ $xl_verticalPadding = '<div style="height: 50px; line-height: 9px; font-size: 7p
             <!--[if (gte mso 9)|(IE)]>
             </td><td width="50%" valign="top">
             <![endif]-->
-            <div class="column">
+            <div class="column_40">
               <table width="100%">
                 <tr>
                   <td class="inner" align="left" valign="center">
