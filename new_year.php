@@ -10,6 +10,7 @@ if ($isTest) {
   $img6src = 'images/new_year/pomosh_s_maketom_obrazci.png';
   $img7src = 'images/new_year/upakovka.png';
   $img8src = 'images/new_year/sroki.png';
+  $img9src = 'images/new_year/skidka.jpg';
 } else {
   $img1src = '';
   $img2src = 'url2';
@@ -447,12 +448,75 @@ $xl_verticalPadding = '<div style="height: 50px; line-height: 9px; font-size: 7p
     <td align="center" valign="top"><img src="<?=$img8src;?>" border="0" style="display: block;height:108px;max-width:100%;"/><div style="height: 10px; line-height: 10px; font-size: 7px;"></div></td>
   </tr>
   <tr>
-    <td align="center" valign="middle"><font color="#000000" face="Arial, sans-serif" style="font-size: 12px; line-height: 14px;"><span style="font-family: Arial, Tahoma, Geneva, sans-serif; color: #000000; font-size: 12px; line-height: 14px;">Оперативную доставку</span></font></td>
+    <td align="center" valign="middle"><?php showText('Оперативную доставку'); ?></td>
     <td style="width: 5px; max-width: 5px; min-width: 5px;" width="5"></td>
-    <td align="center" valign="middle"><font color="#000000" face="Arial, sans-serif" style="font-size: 12px; line-height: 14px;"><span style="font-family: Arial, Tahoma, Geneva, sans-serif; color: #000000; font-size: 12px; line-height: 14px;">Помощь с макетом и образцы</span></font></td>
+    <td align="center" valign="middle"><?php showText('Помощь с макетом и образцы'); ?></td>
     <td style="width: 5px; max-width: 5px; min-width: 5px;" width="5"></td>
-    <td align="center" valign="middle" align="center" valign="middle"><font color="#000000" face="Arial, sans-serif" style="font-size: 12px; line-height: 14px;"><span style="font-family: Arial, Tahoma, Geneva, sans-serif; color: #000000; font-size: 12px; line-height: 14px;">Отдельная упаковка каждого предмета</span></font></td>
+    <td align="center" valign="middle" valign="middle"><?php showText('Отдельная упаковка каждого предмета'); ?></td>
     <td style="width: 5px; max-width: 5px; min-width: 5px;" width="5"></td>
-    <td align="center" valign="middle"><font color="#000000" face="Arial, sans-serif" style="font-size: 12px; line-height: 14px;"><span style="font-family: Arial, Tahoma, Geneva, sans-serif; color: #000000; font-size: 12px; line-height: 14px;">Строгое соблюдение сроков</span></font></td>
+    <td align="center" valign="middle"><?php showText('Строгое соблюдение сроков'); ?></td>
+  </tr>
+</table>
+
+
+
+<?= $m_verticalPadding; ?>
+<hr/>
+<?= $l_verticalPadding; ?>
+
+<table class="outer" align="center">
+  <tr>
+    <?= $horizontalPadding; ?>
+    <td>
+      <?php showHeaderText('<b>По-прежнему сомневаетесь?</b>'); ?>
+      <?= $m_verticalPadding; ?>
+      <?php showText('Вот еще 2 аргумента, чтобы заказать в октябре:'); ?>
+
+    </td>
+    <?= $horizontalPadding; ?>
+  </tr>
+</table>
+
+<!-- BANNER (START) -->
+
+<!--[if (gte mso 9)|(IE)]>
+<table width="600" align="center">
+<tr>
+<td>
+<![endif]-->
+<table class="outer" align="center">
+  <tr>
+    <td>
+      <table class="outer" align="center">
+        <tr>
+          <td class="full-width-image">
+            <img src="<?= $img9src; ?>" alt="Скидка" />
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<!--[if (gte mso 9)|(IE)]>
+</td>
+</tr>
+</table>
+<![endif]-->
+
+<!-- BANNER (END) --> 
+
+
+<?= $m_verticalPadding; ?>
+<hr/>
+<?= $l_verticalPadding; ?>
+
+<table class="outer" align="center">
+  <tr>
+    <?= $horizontalPadding; ?>
+    <td>
+      <?php showHeaderText('Вот небольшая подборка товаров для украшения<br/>вашего праздника:'); ?>
+
+    </td>
+    <?= $horizontalPadding; ?>
   </tr>
 </table>
