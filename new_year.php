@@ -11,6 +11,30 @@ if ($isTest) {
   $img7src = 'images/new_year/upakovka.png';
   $img8src = 'images/new_year/sroki.png';
   $img9src = 'images/new_year/skidka.jpg';
+
+  $img10src = 'images/new_year/kruzhka_1.jpg';
+  $img11src = 'images/new_year/kruzhka_2.jpg';
+  $img12src = 'images/new_year/futbolka_pz.jpg';
+  
+  $img13src = 'images/new_year/zhenskaya_pz.jpg';
+  $img14src = 'images/new_year/svitshot_pz.jpg';
+  $img15src = 'images/new_year/svitshot_uniseks.jpg';
+
+  $img16src = 'images/new_year/obiemnie_nakleiki.jpg';
+  $img17src = 'images/new_year/nabor_nakleek.jpg';
+  $img18src = 'images/new_year/shokoladnie_nabori.jpg';
+  $img19src = 'images/new_year/pled_1.jpg';
+  $img20src = 'images/new_year/pled_2.jpg';
+  $img21src = 'images/new_year/pled_3.jpg';
+  $img22src = 'images/new_year/pled_4.jpg';
+
+  $img23src = 'images/new_year/plakat.jpg';
+  $img24src = 'images/new_year/kalendari.jpg';
+  $img25src = 'images/new_year/chehol_1.jpg';
+  $img26src = 'images/new_year/chehol_2.jpg';
+  $img27src = 'images/new_year/kovrik.jpg';
+  $img28src = 'images/new_year/passport.jpg';
+  $img29src = 'images/new_year/eksklusivnaya_upakovka.jpg';
 } else {
   $img1src = '';
   $img2src = 'url2';
@@ -520,3 +544,60 @@ $xl_verticalPadding = '<div style="height: 50px; line-height: 9px; font-size: 7p
     <?= $horizontalPadding; ?>
   </tr>
 </table>
+
+
+<!-- TABLE (START) -->
+
+      <!--[if (gte mso 9)|(IE)]>
+      <table width="600" align="center">
+      <tr>
+      <td>
+      <![endif]-->
+      <table class="outer" align="center">
+        <tr>
+          <td class="two-column">
+            <!--[if (gte mso 9)|(IE)]>
+            <table width="100%">
+            <tr>
+            <td width="50%" valign="top">
+            <![endif]-->
+            <div class="column">
+              <table width="100%">
+                <tr>
+                  <td class="inner">
+                    <div style="display: block; max-width: 270px;"><a href="https://printio.ru/full_print_tees/55667"><img alt="img" src="<?= $img10src; ?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 270px; max-width: 100%;" /></a></div>
+                    <?= $xs_verticalPadding; ?>
+                    <?php showText('белые кружки с печатью'); ?>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <!--[if (gte mso 9)|(IE)]>
+            </td><td width="50%" valign="top">
+            <![endif]-->
+            <div class="column">
+              <table width="100%">
+                <tr>
+                  <td class="inner">
+                    <div style="display: block; max-width: 270px;"><a href="https://printio.ru/full_print_tees/53293"><img alt="img" src="<?= $img11src; ?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 270px; max-width: 100%;" /></a></div>
+                    <?= $xs_verticalPadding; ?>
+                    <?php showText('кружки с цветными ручками и ободком с печатью'); ?>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+          </td>
+        </tr>
+      </table>
+      <!--[if (gte mso 9)|(IE)]>
+      </td>
+      </tr>
+      </table>
+      <![endif]-->
+
+<!-- TABLE (END) -->
