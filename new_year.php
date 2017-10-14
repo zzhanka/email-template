@@ -16,6 +16,11 @@ function showText($text)
   echo "<font color='#505354' face='verdana, arial, sans-serif' style='font-size: 16px; line-height: 18px;'><span style='font-family: verdana, arial, sans-serif; color: #505354; font-size: 16px; line-height: 18px;'>$text</span></font>";
 }
 
+function showHeaderText($text)
+{
+  echo "<font color='#231f1c' face='verdana, arial, sans-serif' style='font-size: 16px; line-height: 18px;'><span style='font-family: verdana, arial, sans-serif; color: #231f1c; font-size: 16px; line-height: 18px;'><b>$text</b></span></font>";
+}
+
 $horizontalPadding = '<td style="width:15px;max-width:15px;min-width:15px;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" width="15"></td>';
 
 $br = '<div style="height: 5px; line-height: 5px; font-size: 7px;"></div>';
@@ -23,9 +28,18 @@ $verticalPadding = '<div style="height: 9px; line-height: 9px; font-size: 7px;">
 
 ?>
 
+<?= $verticalPadding; ?>
+<table class="outer" align="center">
+  <tr>
+    <?= $horizontalPadding; ?>
+    <td>
+      <?php showHeaderText('Закажите заранее, пока цены низкие и есть время на выбор'); ?>
+    </td>
+    <?= $horizontalPadding; ?>
+  </tr>
+</table>
+<?= $verticalPadding; ?>
 
-<p class="h2" style="font-family: verdana, arial, sans-serif; color: 231f1c">Закажите заранее, пока цены низкие и есть время на выбор</p>
-<div style="height: 9px; line-height: 9px; font-size: 7px;"></div>
 <!-- BANNER (START) -->
 
 <!--[if (gte mso 9)|(IE)]>
@@ -54,7 +68,7 @@ $verticalPadding = '<div style="height: 9px; line-height: 9px; font-size: 7px;">
 
 <!-- BANNER (END) -->
 
-<?=$verticalPadding;?>
+<div style="height: 20px; line-height: 20px; font-size: 7px;"></div>
 
 <!--[if (gte mso 9)|(IE)]>
 <table width="600" align="center">
@@ -66,6 +80,7 @@ $verticalPadding = '<div style="height: 9px; line-height: 9px; font-size: 7px;">
     <td>
       <table class="outer" align="center">
         <tr>
+          <?= $horizontalPadding; ?>
           <td align="left" valign="top">
             <p style="text-align: left">
               <?php
@@ -73,6 +88,7 @@ $verticalPadding = '<div style="height: 9px; line-height: 9px; font-size: 7px;">
                 showText($textToShow);
               ?>
             </p>
+            <div style="height: 20px; line-height: 20px; font-size: 7px;"></div>
             <p style="text-align: left">
               <?php
                 $textToShow = 'Поэтому мы заранее решили подумать и предложить варианты новогодних подарков для ваших сотрудников и партнеров.';
@@ -80,6 +96,7 @@ $verticalPadding = '<div style="height: 9px; line-height: 9px; font-size: 7px;">
               ?>
             </p>
           </td>
+          <?= $horizontalPadding; ?>
         </tr>
       </table>
     </td>
@@ -91,14 +108,24 @@ $verticalPadding = '<div style="height: 9px; line-height: 9px; font-size: 7px;">
 </table>
 <![endif]-->
 
-<?=$verticalPadding;?>
+<div style="height: 30px; line-height: 30px; font-size: 7px;"></div>
+
 <hr/>
+
 <?=$verticalPadding;?>
-<?php 
-  $textToShow = '<span style="font-weight: bold"><b>Небольшой бюджет</b></span> (10-20 тысяч рублей или до 300 руб/чел.)';
-  showText($textToShow);
-?>
-<div style="height: 9px; line-height: 9px; font-size: 7px;"></div>
+<table class="outer" align="center">
+  <tr>
+    <?= $horizontalPadding; ?>
+    <td>
+      <?php 
+        $textToShow = '<span style="font-weight: bold"><b>Небольшой бюджет</b></span> (10-20 тысяч рублей или до 300 руб/чел.)';
+        showText($textToShow);
+      ?>
+    </td>
+    <?= $horizontalPadding; ?>
+  </tr>
+</table>
+<?= $verticalPadding; ?>
 
 <!-- TABLE (START) -->
 
@@ -169,12 +196,21 @@ $verticalPadding = '<div style="height: 9px; line-height: 9px; font-size: 7px;">
 
 <?=$verticalPadding;?>
 <hr/>
-<?=$verticalPadding;?>
-<?php 
-  $textToShow = '<span style="font-weight: bold"><b>Средний бюджет</b></span> (30-50 тысяч рублей или до 1000 руб/чел.)';
-  showText($textToShow);
-?>
-<div style="height: 9px; line-height: 9px; font-size: 7px;"></div>
+
+<?= $verticalPadding; ?>
+<table class="outer" align="center">
+  <tr>
+    <?= $horizontalPadding; ?>
+    <td>
+      <?php 
+        $textToShow = '<span style="font-weight: bold"><b>Средний бюджет</b></span> (30-50 тысяч рублей или до 1000 руб/чел.)';
+        showText($textToShow);
+      ?>
+    </td>
+    <?= $horizontalPadding; ?>
+  </tr>
+</table>
+<?= $verticalPadding; ?>
 
 <!-- TABLE (START) -->
 
@@ -243,11 +279,20 @@ $verticalPadding = '<div style="height: 9px; line-height: 9px; font-size: 7px;">
 <hr/>
 <div style="height: 30px; line-height: 30px; font-size: 7px;"></div>
 
-<?php 
-  $textToShow = '<span style="font-weight: bold"><b>Эксклюзивные подарки</b></span> (более 1000 руб/чел.)';
-  showText($textToShow);
-?>
-<div style="height: 9px; line-height: 9px; font-size: 7px;"></div>
+<?= $verticalPadding; ?>
+<table class="outer" align="center">
+  <tr>
+    <?= $horizontalPadding; ?>
+    <td>
+      <?php 
+        $textToShow = '<span style="font-weight: bold"><b>Эксклюзивные подарки</b></span> (более 1000 руб/чел.)';
+        showText($textToShow);
+      ?>
+    </td>
+    <?= $horizontalPadding; ?>
+  </tr>
+</table>
+<?= $verticalPadding; ?>
 
 <!-- BANNER (START) -->
 
