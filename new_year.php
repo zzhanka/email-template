@@ -21,6 +21,10 @@ function showHeaderText($text)
   echo "<font color='#231f1c' face='verdana, arial, sans-serif' style='font-size: 16px; line-height: 18px;'><span style='font-family: verdana, arial, sans-serif; color: #231f1c; font-size: 16px; line-height: 18px;'>$text</span></font>";
 }
 
+function showBigText($text)
+{
+  echo "<font color='#505354' face='verdana, arial, sans-serif' style='font-size: 18px; line-height: 20px;'><span style='font-family: verdana, arial, sans-serif; color: #505354; font-size: 18px; line-height: 20px;'>$text</span></font>";
+}
 
 $horizontalPadding = '<td style="width:15px;max-width:15px;min-width:15px;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" width="15"></td>';
 
@@ -344,8 +348,6 @@ $xl_verticalPadding = '<div style="height: 50px; line-height: 9px; font-size: 7p
   </tr>
 </table>
 
-<?= $l_verticalPadding; ?>
-
 <!--[if (gte mso 9)|(IE)]>
 <table width="600" align="center">
 <tr>
@@ -362,25 +364,34 @@ $xl_verticalPadding = '<div style="height: 50px; line-height: 9px; font-size: 7p
                 <tr>
                   <td style="width:15px;max-width:15px;min-width:15px;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" width="15"></td>
                   <td align="center" style="padding: 0px; text-align: center;">
+                    <?= $l_verticalPadding; ?>
                     <?php showHeaderText('Специально для вас будем рады сделать макеты календарей, блокнотов, ковриков для мышки и многое другое'); ?> 
 
-                    <div style="height: 20px; line-height: 20px; font-size: 7px;"></div>
-
-                    <!-- BUTTON (START) -->
-                    <table cellpadding="0" cellspacing="0" border="0" width="250" style="width: 250px !important; max-width: 250px; min-width: 250px; background: #00cf67; border-radius: 3px;">
+                    <?= $m_verticalPadding; ?>
+                    <table class="outer" align="center">
                       <tr>
-                        <?= $horizontalPadding; ?>
-                        <td align="center" valign="middle" height="62">
-                         <a href="#" target="_blank" style="display: block; width: 100%; height: 62px; font-family: Verdana, Tahoma, Geneva, sans-serif; color: #ffffff; font-size: 16px; line-height: 62px; text-decoration: none; white-space: nowrap;">
-                          <font face="Verdana, Tahoma, Geneva, sans-serif" color="#ffffff" style="font-size: 16px; line-height: 62px; text-decoration: none; white-space: nowrap;">
-                            <span style="font-family: Arial, Verdana, Tahoma, Geneva, sans-serif; color: #ffffff; font-size: 16px; line-height: 62px; text-decoration: none; white-space: nowrap;">ЗАКАЗАТЬ&nbsp;ПОДАРКИ&nbsp;НА&nbsp;САЙТЕ</span>
-                          </font>
-                         </a>
+                        <td style="width: 15px; max-width: 15px; min-width: 15px;" width="15"></td>
+                        <td align="center">
+                          <!-- BUTTON (START) -->
+                          <table cellpadding="0" cellspacing="0" border="0" width="250" style="width: 250px !important; max-width: 250px; min-width: 250px; background: #00cf67; border-radius: 3px;">
+                            <tr>
+                              <?= $horizontalPadding; ?>
+                              <td align="center" valign="middle" height="62">
+                               <a href="#" target="_blank" style="display: block; width: 100%; height: 62px; font-family: Verdana, Tahoma, Geneva, sans-serif; color: #ffffff; font-size: 16px; line-height: 62px; text-decoration: none; white-space: nowrap;">
+                                <font face="Verdana, Tahoma, Geneva, sans-serif" color="#ffffff" style="font-size: 16px; line-height: 62px; text-decoration: none; white-space: nowrap;">
+                                  <span style="font-family: Arial, Verdana, Tahoma, Geneva, sans-serif; color: #ffffff; font-size: 16px; line-height: 62px; text-decoration: none; white-space: nowrap;">ЗАКАЗАТЬ&nbsp;ПОДАРКИ&nbsp;НА&nbsp;САЙТЕ</span>
+                                </font>
+                               </a>
+                              </td>
+                              <?= $horizontalPadding; ?>
+                            </tr>
+                          </table>
+                          <!-- BUTTON (END) -->
+
                         </td>
-                        <?= $horizontalPadding; ?>
+                        <td style="width: 15px; max-width: 15px; min-width: 15px;" width="15"></td>
                       </tr>
                     </table>
-                    <!-- BUTTON (END) -->
 
                     <div style="height: 20px; line-height: 20px; font-size: 7px;"></div>
 
