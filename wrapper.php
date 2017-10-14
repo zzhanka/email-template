@@ -157,6 +157,76 @@
   <center class="wrapper">
     <div class="webkit">
 
+      <!-- HEADER (START) -->
+
+      <table border="0" cellpadding="0" cellspacing="0">
+        <tbody>
+          <tr>
+            <td>
+            <div style="height: 9px; line-height: 9px; font-size: 7px;"></div>
+            <font color="#999999" face="Arial, sans-serif" style="font-size: 12px; line-height: 14px;"><span style="font-family: Verdana, Tahoma, Geneva, sans-serif; color: #999999; font-size: 12px; line-height: 14px;">
+              SOME TEXT
+            </span></font>
+
+            <div style="height: 9px; line-height: 9px; font-size: 7px;"></div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <!--[if (gte mso 9)|(IE)]>
+      <table width="600" align="center" cellpadding="0" cellspacing="0" border="0" >
+      <tr>
+      <td>
+      <![endif]-->
+
+      <table class="outer" align="center" width="100%">
+        <tr>
+          <td class="two-column" style="border-bottom-color: #cccccc; border-bottom-width: 2px; border-bottom-style: solid; border-top-color: #cccccc; border-top-width: 2px; border-top-style: solid;">
+            <!--[if (gte mso 9)|(IE)]>
+            <table width="100%">
+            <tr>
+            <td width="50%" valign="top">
+            <![endif]-->
+            <div class="column" style="vertical-align: middle">
+              <table width="100%">
+                <tr>
+                  <td class="inner" style="padding: 0">
+                    <div style="height: 15px; line-height: 15px; font-size: 7px;"></div>
+                    <div class="m-center" style="max-width: 140px;"><a target="_blank" style="text-decoration: none; display: block; width: 140px; max-width: 100%;" href="https://printio.ru/"><img alt="Printio" border="0" width="140" height="61px" src="/ru/user_file?resource=images&amp;user_id=1771961&amp;name=/header/logo.jpg" style="display: block; width: 140px; max-width: 100%;" /></a></div>
+                    <div style="height: 15px; line-height: 15px; font-size: 7px;"></div>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <!--[if (gte mso 9)|(IE)]>
+            </td><td width="50%" valign="top">
+            <![endif]-->
+            <div class="column" style="vertical-align: middle">
+              <table width="100%">
+                <tr>
+                  <td class="inner">
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                      <tr>
+                        <td><a href="https://printio.ru/classic_tees/new" style="font-family: Arial, Tahoma, Geneva, sans-serif; color: #007F00; font-size: 16px; line-height: 18px; font-weight: bold; text-decoration: none;" target="_self"><font color="#007F00" face="Arial, sans-serif" style="font-size: 16px; font-weight: bold; line-height: 18px; text-decoration: none;"><span style="font-family: Arial, Tahoma, Geneva, sans-serif; font-weight: bold; color: #007F00; font-size: 16px; line-height: 18px; text-decoration: none;">СВОЙ ДИЗАЙН</span> </font> </a></td>
+                        <td style="width: 15px; max-width: 15px; min-width: 15px;" width="15"></td>
+                        <td><a href="https://printio.ru/store/clothing" style="font-family: Arial, Tahoma, Geneva, sans-serif; font-weight: bold; color: #000000; font-size: 16px; line-height: 18px; text-decoration: none;" target="_self"><font color="#007F00" face="Arial, sans-serif" style="font-size: 16px; font-weight: bold; line-height: 18px; text-decoration: none;"><span style="font-family: Arial, Tahoma, Geneva, sans-serif; color: #000000; font-size: 16px; line-height: 18px; text-decoration: none;">МАГАЗИН</span> </font> </a></td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+          </td>
+        </tr>
+      </table>
+
+      <!-- HEADER (END) -->
+
       <!-- CONTENT (START) -->
 
       <?php include_once('new_year.php'); ?>
