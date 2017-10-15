@@ -142,8 +142,10 @@
     display: inline-block;
   }
 
-  .three-column .column_100 {
-    max-width: 100px;
+  .three-column .column_footer {
+      width: 100%;
+      display: inline-block;
+      vertical-align: top;
   }
 
 /*Four column layout*/

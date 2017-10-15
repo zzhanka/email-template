@@ -23,7 +23,7 @@ if ($isTest) {
   <tr>
   <td>
   <![endif]-->
-  <table class="outer" align="center">
+  <table class="outer footer-menu" align="center" style="border-bottom-color: #cccccc; border-bottom-width: 2px; border-bottom-style: solid; border-top-color: #cccccc; border-top-width: 2px; border-top-style: solid;">
     <tr>
       <td class="two-column">
         <!--[if (gte mso 9)|(IE)]>
@@ -34,7 +34,7 @@ if ($isTest) {
         <div class="column">
           <table width="100%">
             <tr>
-              <td class="inner">
+              <td>
                 <!--[if (gte mso 9)|(IE)]>
                 <table width="600" align="center">
                 <tr>
@@ -49,11 +49,14 @@ if ($isTest) {
                       <td width="200" valign="top">
                       <![endif]-->
                       
-                      <table class="column column_100">
+
+                      <table class="column_footer" style="max-width: 91px">
                         <tr>
+                          <?= $horizontalPadding; ?>
                           <td class="inner">
                             <a href="https://printio.ru/store/clothing/men_tshirts" style="font-family:Arial, Tahoma, Geneva, sans-serif;color:#000000;font-size:14px;line-height:18px;text-decoration:underline;" target="_blank"><font color="#000000" face="Arial, sans-serif" style="font-size:14px;line-height:18px;text-decoration:underline;"><span style="font-family:Arial, Tahoma, Geneva, sans-serif;color:#000000;font-size:14px;line-height:18px;text-decoration:underline;">МУЖЧИНАМ</span> </font> </a>
                           </td>
+                          <?= $horizontalPadding; ?>
                         </tr>
                       </table>
 
@@ -61,13 +64,14 @@ if ($isTest) {
                       </td><td width="200" valign="top">
                       <![endif]-->
 
-                      <table class="column column_100">
+                      <table class="column_footer" style="max-width: 94px">
                         <tr>
                           <td class="inner">
                             
                             <a href="https://printio.ru/store/clothing/women_tshirts" style="font-family:Arial, Tahoma, Geneva, sans-serif;color:#000000;font-size:14px;line-height:18px;text-decoration:underline;" target="_blank"><font color="#000000" face="Arial, sans-serif" style="font-size:14px;line-height:18px;text-decoration:underline;"><span style="font-family:Arial, Tahoma, Geneva, sans-serif;color:#000000;font-size:14px;line-height:18px;text-decoration:underline;">ЖЕНЩИНАМ</span> </font> </a>
 
                           </td>
+                          <?= $horizontalPadding; ?>
                         </tr>
                       </table>
 
@@ -75,11 +79,12 @@ if ($isTest) {
                       </td><td width="200" valign="top">
                       <![endif]-->
 
-                      <table class="column column_100">
+                      <table class="column_footer" style="max-width: 53px">
                         <tr>
                           <td class="inner">
                             <a href="https://printio.ru/store/kids_items" style="font-family:Arial, Tahoma, Geneva, sans-serif;color:#000000;font-size:14px;line-height:18px;text-decoration:underline;" target="_blank"><font color="#000000" face="Arial, sans-serif" style="font-size:14px;line-height:18px;text-decoration:underline;"><span style="font-family:Arial, Tahoma, Geneva, sans-serif;color:#000000;font-size:14px;line-height:18px;text-decoration:underline;">ДЕТЯМ</span> </font> </a>
                           </td>
+                          <?= $horizontalPadding; ?>
                         </tr>
                       </table>
 
@@ -125,11 +130,12 @@ if ($isTest) {
                       <td width="200" valign="top">
                       <![endif]-->
                       
-                      <table class="column column_100">
+                      <table class="column_footer" style="max-width: 138px">
                         <tr>
                           <td class="inner">
                             <a href="https://printio.ru/store/home_supplies" style="font-family:Arial, Tahoma, Geneva, sans-serif;color:#000000;font-size:14px;line-height:18px;text-decoration:underline;" target="_blank"><font color="#000000" face="Arial, sans-serif" style="font-size:14px;line-height:18px;text-decoration:underline;"><span style="font-family:Arial, Tahoma, Geneva, sans-serif;color:#000000;font-size:14px;line-height:18px;text-decoration:underline;">ДОМ&nbsp;И&nbsp;ИНТЕРЬЕР</span> </font> </a>
                           </td>
+                          <?= $horizontalPadding; ?>
                         </tr>
                       </table>
 
@@ -137,12 +143,13 @@ if ($isTest) {
                       </td><td width="200" valign="top">
                       <![endif]-->
 
-                      <table class="column column_100">
+                      <table class="column_footer" style="max-width: 55px">
                         <tr>
                           <td class="inner">
                             
                             <a href="https://printio.ru/store/phone_cases" style="font-family:Arial, Tahoma, Geneva, sans-serif;color:#000000;font-size:14px;line-height:18px;text-decoration:underline;" target="_blank"><font color="#000000" face="Arial, sans-serif" style="font-size:14px;line-height:18px;text-decoration:underline;"><span style="font-family:Arial, Tahoma, Geneva, sans-serif;color:#000000;font-size:14px;line-height:18px;text-decoration:underline;">ЧЕХЛЫ</span> </font> </a>
                           </td>
+                          <?= $horizontalPadding; ?>
                         </tr>
                       </table>
 
@@ -150,11 +157,12 @@ if ($isTest) {
                       </td><td width="200" valign="top">
                       <![endif]-->
 
-                      <table class="column column_100">
+                      <table class="column_footer" style="max-width: 64px">
                         <tr>
                           <td class="inner">
                             <a href="https://printio.ru/store/edible" style="font-family:Arial, Tahoma, Geneva, sans-serif;color:#000000;font-size:14px;line-height:18px;text-decoration:underline;" target="_blank"><font color="#000000" face="Arial, sans-serif" style="font-size:14px;line-height:18px;text-decoration:underline;"><span style="font-family:Arial, Tahoma, Geneva, sans-serif;color:#000000;font-size:14px;line-height:18px;text-decoration:underline;">ПРОЧЕЕ</span> </font> </a>
                           </td>
+                          <?= $horizontalPadding; ?>
                         </tr>
                       </table>
 
