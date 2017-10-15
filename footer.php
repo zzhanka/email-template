@@ -42,6 +42,7 @@ if ($isTest) {
                 <![endif]-->
                 <table class="outer" align="center">
                   <tr>
+
                     <td class="three-column">
                       <!--[if (gte mso 9)|(IE)]>
                       <table width="100%">
@@ -50,13 +51,13 @@ if ($isTest) {
                       <![endif]-->
                       
 
-                      <table class="column_footer" style="max-width: 91px">
+                      <table class="column_footer" style="max-width: 121px">
                         <tr>
-                          <?= $horizontalPadding; ?>
-                          <td class="inner">
+                          
+                          <td>
                             <a href="https://printio.ru/store/clothing/men_tshirts" style="font-family:Arial, Tahoma, Geneva, sans-serif;color:#000000;font-size:14px;line-height:18px;text-decoration:underline;" target="_blank"><font color="#000000" face="Arial, sans-serif" style="font-size:14px;line-height:18px;text-decoration:underline;"><span style="font-family:Arial, Tahoma, Geneva, sans-serif;color:#000000;font-size:14px;line-height:18px;text-decoration:underline;">МУЖЧИНАМ</span> </font> </a>
                           </td>
-                          <?= $horizontalPadding; ?>
+                          
                         </tr>
                       </table>
 
@@ -64,9 +65,9 @@ if ($isTest) {
                       </td><td width="200" valign="top">
                       <![endif]-->
 
-                      <table class="column_footer" style="max-width: 94px">
+                      <table class="column_footer" style="max-width: 109px">
                         <tr>
-                          <td class="inner">
+                          <td>
                             
                             <a href="https://printio.ru/store/clothing/women_tshirts" style="font-family:Arial, Tahoma, Geneva, sans-serif;color:#000000;font-size:14px;line-height:18px;text-decoration:underline;" target="_blank"><font color="#000000" face="Arial, sans-serif" style="font-size:14px;line-height:18px;text-decoration:underline;"><span style="font-family:Arial, Tahoma, Geneva, sans-serif;color:#000000;font-size:14px;line-height:18px;text-decoration:underline;">ЖЕНЩИНАМ</span> </font> </a>
 
@@ -79,9 +80,9 @@ if ($isTest) {
                       </td><td width="200" valign="top">
                       <![endif]-->
 
-                      <table class="column_footer" style="max-width: 53px">
+                      <table class="column_footer" style="max-width: 68px">
                         <tr>
-                          <td class="inner">
+                          <td>
                             <a href="https://printio.ru/store/kids_items" style="font-family:Arial, Tahoma, Geneva, sans-serif;color:#000000;font-size:14px;line-height:18px;text-decoration:underline;" target="_blank"><font color="#000000" face="Arial, sans-serif" style="font-size:14px;line-height:18px;text-decoration:underline;"><span style="font-family:Arial, Tahoma, Geneva, sans-serif;color:#000000;font-size:14px;line-height:18px;text-decoration:underline;">ДЕТЯМ</span> </font> </a>
                           </td>
                           <?= $horizontalPadding; ?>
@@ -113,7 +114,7 @@ if ($isTest) {
         <div class="column">
           <table width="100%">
             <tr>
-              <td class="inner">
+              <td>
 
 
                 <!--[if (gte mso 9)|(IE)]>
@@ -130,9 +131,9 @@ if ($isTest) {
                       <td width="200" valign="top">
                       <![endif]-->
                       
-                      <table class="column_footer" style="max-width: 138px">
+                      <table class="column_footer" style="max-width: 153px">
                         <tr>
-                          <td class="inner">
+                          <td>
                             <a href="https://printio.ru/store/home_supplies" style="font-family:Arial, Tahoma, Geneva, sans-serif;color:#000000;font-size:14px;line-height:18px;text-decoration:underline;" target="_blank"><font color="#000000" face="Arial, sans-serif" style="font-size:14px;line-height:18px;text-decoration:underline;"><span style="font-family:Arial, Tahoma, Geneva, sans-serif;color:#000000;font-size:14px;line-height:18px;text-decoration:underline;">ДОМ&nbsp;И&nbsp;ИНТЕРЬЕР</span> </font> </a>
                           </td>
                           <?= $horizontalPadding; ?>
@@ -143,9 +144,9 @@ if ($isTest) {
                       </td><td width="200" valign="top">
                       <![endif]-->
 
-                      <table class="column_footer" style="max-width: 55px">
+                      <table class="column_footer" style="max-width: 70px">
                         <tr>
-                          <td class="inner">
+                          <td>
                             
                             <a href="https://printio.ru/store/phone_cases" style="font-family:Arial, Tahoma, Geneva, sans-serif;color:#000000;font-size:14px;line-height:18px;text-decoration:underline;" target="_blank"><font color="#000000" face="Arial, sans-serif" style="font-size:14px;line-height:18px;text-decoration:underline;"><span style="font-family:Arial, Tahoma, Geneva, sans-serif;color:#000000;font-size:14px;line-height:18px;text-decoration:underline;">ЧЕХЛЫ</span> </font> </a>
                           </td>
@@ -157,9 +158,9 @@ if ($isTest) {
                       </td><td width="200" valign="top">
                       <![endif]-->
 
-                      <table class="column_footer" style="max-width: 64px">
+                      <table class="column_footer" style="max-width: 79px">
                         <tr>
-                          <td class="inner">
+                          <td>
                             <a href="https://printio.ru/store/edible" style="font-family:Arial, Tahoma, Geneva, sans-serif;color:#000000;font-size:14px;line-height:18px;text-decoration:underline;" target="_blank"><font color="#000000" face="Arial, sans-serif" style="font-size:14px;line-height:18px;text-decoration:underline;"><span style="font-family:Arial, Tahoma, Geneva, sans-serif;color:#000000;font-size:14px;line-height:18px;text-decoration:underline;">ПРОЧЕЕ</span> </font> </a>
                           </td>
                           <?= $horizontalPadding; ?>
