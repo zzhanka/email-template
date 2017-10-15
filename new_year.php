@@ -403,6 +403,7 @@ $xl_verticalPadding = '<div style="height: 50px; line-height: 9px; font-size: 7p
                           <!-- BUTTON (START) -->
                           <table cellpadding="0" cellspacing="0" border="0" width="250" style="width: 250px !important; max-width: 250px; min-width: 250px; background: #00cf67; border-radius: 3px;">
                             <tr>
+                              <?= $horizontalPadding; ?>
                               <td align="center" valign="middle" height="62">
                                <a href="#" target="_blank" style="display: block; width: 100%; height: 62px; font-family: Verdana, Tahoma, Geneva, sans-serif; color: #ffffff; font-size: 16px; line-height: 62px; text-decoration: none; white-space: nowrap;">
                                 <font face="Verdana, Tahoma, Geneva, sans-serif" color="#ffffff" style="font-size: 16px; line-height: 62px; text-decoration: none; white-space: nowrap;">
@@ -410,6 +411,7 @@ $xl_verticalPadding = '<div style="height: 50px; line-height: 9px; font-size: 7p
                                 </font>
                                </a>
                               </td>
+                              <?= $horizontalPadding; ?>
                             </tr>
                           </table>
                           <!-- BUTTON (END) -->
