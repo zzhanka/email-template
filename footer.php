@@ -130,7 +130,7 @@ if ($isTest) {
                       <td width="200" valign="top">
                       <![endif]-->
                       
-                      <table class="column_footer" style="max-width: 168px">
+                      <table class="column_footer" style="max-width: 166px">
                         <tr>
                           <?= $horizontalPadding; ?>
                           <td>

@@ -183,7 +183,7 @@ $xl_verticalPadding = '<div style="height: 50px; line-height: 9px; font-size: 7p
             <div class="column_60">
               <table width="100%">
                 <tr>
-                  <td class="inner" valign="top">
+                  <td valign="top">
                     <div style="display: block; max-width: 372px;"><a href="https://printio.ru/full_print_tees/55667"><img alt="img" src="<?=$img2src;?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 372px; max-width: 100%;" /></a></div>
                   </td>
                   <?= $horizontalPadding; ?>
@@ -196,7 +196,7 @@ $xl_verticalPadding = '<div style="height: 50px; line-height: 9px; font-size: 7p
             <div class="column_40">
               <table width="100%">
                 <tr>
-                  <td class="inner" align="left" valign="center">
+                  <td align="left" valign="center">
 
                     <?php 
                       showText('<span class="disc">●</span> кружка');
@@ -700,7 +700,7 @@ $xl_verticalPadding = '<div style="height: 50px; line-height: 9px; font-size: 7p
 <table class="outer" align="center">
   <tr>
     <?= $horizontalPadding; ?>
-    <td>
+    <td class="inner" align="center">
       <?php showText('объёмные наклейки'); ?>
     </td>
     <?= $horizontalPadding; ?>
@@ -739,7 +739,7 @@ $xl_verticalPadding = '<div style="height: 50px; line-height: 9px; font-size: 7p
 <table class="outer" align="center">
   <tr>
     <?= $horizontalPadding; ?>
-    <td>
+    <td class="inner" align="center">
       <?php showText('набор новогодних наклеек'); ?>
     </td>
     <?= $horizontalPadding; ?>
@@ -777,7 +777,7 @@ $xl_verticalPadding = '<div style="height: 50px; line-height: 9px; font-size: 7p
 <table class="outer" align="center">
   <tr>
     <?= $horizontalPadding; ?>
-    <td>
+    <td class="inner" align="center">
       <?php showText('шоколадные наборы'); ?>
     </td>
     <?= $horizontalPadding; ?>
@@ -841,7 +841,7 @@ $xl_verticalPadding = '<div style="height: 50px; line-height: 9px; font-size: 7p
 <table class="outer" align="center">
   <tr>
     <?= $horizontalPadding; ?>
-    <td>
+    <td class="inner" align="center">
       <?php showText('флисовый плед с вашим логотипом'); ?>
     </td>
     <?= $horizontalPadding; ?>
@@ -904,7 +904,7 @@ $xl_verticalPadding = '<div style="height: 50px; line-height: 9px; font-size: 7p
 <table class="outer" align="center">
   <tr>
     <?= $horizontalPadding; ?>
-    <td>
+    <td class="inner" align="center">
       <?php showText('флисовый плед с новогодней тематикой'); ?>
     </td>
     <?= $horizontalPadding; ?>
@@ -1027,7 +1027,7 @@ $xl_verticalPadding = '<div style="height: 50px; line-height: 9px; font-size: 7p
 <table class="outer" align="center">
   <tr>
     <?= $horizontalPadding; ?>
-    <td>
+    <td class="inner" align="center">
       <?php showText('чехлы для телефонов'); ?>
     </td>
     <?= $horizontalPadding; ?>
@@ -1125,7 +1125,7 @@ $xl_verticalPadding = '<div style="height: 50px; line-height: 9px; font-size: 7p
 <table class="outer" align="center">
   <tr>
     <?= $horizontalPadding; ?>
-    <td>
+    <td class="inner" align="center">
       <?php showText('подарочная упаковка'); ?>
     </td>
     <?= $horizontalPadding; ?>
