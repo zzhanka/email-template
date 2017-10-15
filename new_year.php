@@ -461,26 +461,85 @@ $xl_verticalPadding = '<div style="height: 50px; line-height: 9px; font-size: 7p
 </table>
 <?= $m_verticalPadding; ?>
 
-<table border="0" cellpadding="0" cellspacing="0" width="100%">
-  <tr>
-    <td align="center" valign="top"><img src="<?=$img5src;?>" border="0" style="display: block;height:108px;max-width:100%;"/><div style="height: 10px; line-height: 10px; font-size: 7px;"></div></td>
-    <td style="width: 5px; max-width: 5px; min-width: 5px;" width="5"></td>
-    <td align="center" valign="top"><img src="<?=$img6src;?>" border="0" style="display: block;height:108px;max-width:100%;"/><div style="height: 10px; line-height: 10px; font-size: 7px;"></div></td>
-    <td style="width: 5px; max-width: 5px; min-width: 5px;" width="5"></td>
-    <td align="center" valign="top"><img src="<?=$img7src;?>" border="0" style="display: block;height:108px;max-width:100%;"/><div style="height: 10px; line-height: 10px; font-size: 7px;"></div></td>
-    <td style="width: 5px; max-width: 5px; min-width: 5px;" width="5"></td>
-    <td align="center" valign="top"><img src="<?=$img8src;?>" border="0" style="display: block;height:108px;max-width:100%;"/><div style="height: 10px; line-height: 10px; font-size: 7px;"></div></td>
-  </tr>
-  <tr>
-    <td align="center" valign="middle"><?php showText('Оперативную доставку'); ?></td>
-    <td style="width: 5px; max-width: 5px; min-width: 5px;" width="5"></td>
-    <td align="center" valign="middle"><?php showText('Помощь с макетом и образцы'); ?></td>
-    <td style="width: 5px; max-width: 5px; min-width: 5px;" width="5"></td>
-    <td align="center" valign="middle" valign="middle"><?php showText('Отдельная упаковка каждого предмета'); ?></td>
-    <td style="width: 5px; max-width: 5px; min-width: 5px;" width="5"></td>
-    <td align="center" valign="middle"><?php showText('Строгое соблюдение сроков'); ?></td>
-  </tr>
-</table>
+
+
+
+    <table class="outer" align="center">
+      <tr>
+        <td class="four-column">
+          <!--[if (gte mso 9)|(IE)]>
+          <table width="100%">
+          <tr>
+          <td width="150" valign="top">
+          <![endif]-->
+          <div class="column">
+            <table width="100%">
+              <tr>
+                <td class="inner">
+                  <img src="images/advantage/1.png" border="0" style="display: block;height:80px;max-width:100%;"/><div style="height: 10px; line-height: 10px; font-size: 7px;"></div>
+                  <?= $m_verticalPadding; ?>
+                  <?php showText('Оперативную доставку'); ?>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <!--[if (gte mso 9)|(IE)]>
+          </td><td width="150" valign="top">
+          <![endif]-->
+          <div class="column">
+            <table width="100%">
+              <tr>
+                <td class="inner">
+                  <img src="images/advantage/2.png" border="0" style="display: block;height:80px;max-width:100%;"/><div style="height: 10px; line-height: 10px; font-size: 7px;"></div>
+                  <?= $m_verticalPadding; ?>
+                  <?php showText('Помощь с макетом и образцы'); ?>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <!--[if (gte mso 9)|(IE)]>
+          </td><td width="150" valign="top">
+          <![endif]-->
+          <div class="column">
+            <table width="100%">
+              <tr>
+                <td class="inner">
+                  <img src="images/advantage/3.png" border="0" style="display: block;height:80px;max-width:100%;"/><div style="height: 10px; line-height: 10px; font-size: 7px;"></div>
+                  <?= $m_verticalPadding; ?>
+                  <?php showText('Отдельную упаковку каждого предмета'); ?>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <!--[if (gte mso 9)|(IE)]>
+          </td>
+          <td width="150" valign="top">
+          <![endif]-->
+          <div class="column">
+            <table width="100%">
+              <tr>
+                <td class="inner">
+                  <img src="images/advantage/4.png" border="0" style="display: block;height:80px;max-width:100%;"/><div style="height: 10px; line-height: 10px; font-size: 7px;"></div>
+                  <?= $m_verticalPadding; ?>
+                  <?php showText('Строгое соблюдение сроков'); ?>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <!--[if (gte mso 9)|(IE)]>
+          </td>
+          </tr>
+          </table>
+          <![endif]-->
+        </td>
+      </tr>
+    </table>
+
+
+
+
+
+
 
 
 
@@ -1142,3 +1201,4 @@ $xl_verticalPadding = '<div style="height: 50px; line-height: 9px; font-size: 7p
     <?= $horizontalPadding; ?>
   </tr>
 </table>
+<?= $l_verticalPadding; ?>
