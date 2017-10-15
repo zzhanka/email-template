@@ -146,7 +146,7 @@ $xl_verticalPadding = '<div style="height: 50px; line-height: 9px; font-size: 7p
 </table>
 <![endif]-->
 
-<?= $l_verticalPadding; ?>
+<?= $xl_verticalPadding; ?>
 
 <hr/>
 
@@ -184,7 +184,7 @@ $xl_verticalPadding = '<div style="height: 50px; line-height: 9px; font-size: 7p
               <table width="100%">
                 <tr>
                   <td valign="top">
-                    <div style="display: block; max-width: 372px;"><a href="https://printio.ru/full_print_tees/55667"><img alt="img" src="<?=$img2src;?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 372px; max-width: 100%;" /></a></div>
+                    <div style="display: block; max-width: 372px;width: 372px;"><a href="https://printio.ru/full_print_tees/55667"><img alt="img" src="<?=$img2src;?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 372px; max-width: 100%;" /></a></div>
                   </td>
                   <?= $horizontalPadding; ?>
                 </tr>
@@ -268,7 +268,7 @@ $xl_verticalPadding = '<div style="height: 50px; line-height: 9px; font-size: 7p
               <table width="100%">
                 <tr>
                   <td class="inner" valign="top">
-                    <div style="display: block; max-width: 372px;"><a href="https://printio.ru/full_print_tees/55667"><img alt="img" src="<?=$img3src;?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 372px; max-width: 100%;" /></a></div>
+                    <div style="display: block; max-width: 372px;width: 372px;"><a href="https://printio.ru/full_print_tees/55667"><img alt="img" src="<?=$img3src;?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 372px; max-width: 100%;" /></a></div>
                   </td>
                   <?=$horizontalPadding;?>
                 </tr>
@@ -393,10 +393,10 @@ $xl_verticalPadding = '<div style="height: 50px; line-height: 9px; font-size: 7p
                 <tr>
                   <?= $horizontalPadding; ?>
                   <td align="center" style="padding: 0px; text-align: center;">
-                    <?= $l_verticalPadding; ?>
-                    <?php showHeaderText('Специально для вас будем рады сделать макеты календарей, блокнотов, ковриков для мышки и многое другое'); ?> 
+                    <?= $xl_verticalPadding; ?>
+                    <?php showBigText('Специально для вас будем рады сделать макеты календарей, блокнотов, ковриков для мышки и многое другое'); ?> 
 
-                    <?= $m_verticalPadding; ?>
+                    <?= $l_verticalPadding; ?>
                     <table class="outer" align="center">
                       <tr>
                         <td align="center">
@@ -421,10 +421,10 @@ $xl_verticalPadding = '<div style="height: 50px; line-height: 9px; font-size: 7p
                       </tr>
                     </table>
 
-                    <div style="height: 20px; line-height: 20px; font-size: 7px;"></div>
+                    <?= $xl_verticalPadding; ?>
 
-                    <?php showText('Или напишите запрос на <a href="mailto:contact@printio.ru">contact@printio.ru</a>'); ?>
-                    <div style="height: 20px; line-height: 20px; font-size: 7px;"></div>
+                    <?php showBigText('Или напишите запрос на <a href="mailto:contact@printio.ru">contact@printio.ru</a>'); ?>
+                    <?= $l_verticalPadding; ?>
 
                   </td>
                   <?= $horizontalPadding; ?>
@@ -466,13 +466,6 @@ $xl_verticalPadding = '<div style="height: 50px; line-height: 9px; font-size: 7p
 <?php include_once('advantage.php'); ?>
 
 
-
-
-
-
-
-
-
 <?= $m_verticalPadding; ?>
 <hr/>
 <?= $l_verticalPadding; ?>
@@ -480,7 +473,7 @@ $xl_verticalPadding = '<div style="height: 50px; line-height: 9px; font-size: 7p
 <table class="outer" align="center">
   <tr>
     <?= $horizontalPadding; ?>
-    <td>
+    <td class="inner" align="center">
       <?php showHeaderText('<b>По-прежнему сомневаетесь?</b>'); ?>
       <?= $m_verticalPadding; ?>
       <?php showText('Вот еще 2 аргумента, чтобы заказать в октябре:'); ?>
@@ -521,19 +514,19 @@ $xl_verticalPadding = '<div style="height: 50px; line-height: 9px; font-size: 7p
 
 <?= $m_verticalPadding; ?>
 <hr/>
-<?= $l_verticalPadding; ?>
+<?= $xl_verticalPadding; ?>
 
 <table class="outer" align="center">
   <tr>
     <?= $horizontalPadding; ?>
-    <td>
-      <?php showHeaderText('Вот небольшая подборка товаров для украшения<br/>вашего праздника:'); ?>
+    <td class="inner" align="center">
+      <?php showText('Вот небольшая подборка товаров для украшения<br/>вашего праздника:'); ?>
 
     </td>
     <?= $horizontalPadding; ?>
   </tr>
 </table>
-
+<?= $m_verticalPadding; ?>
 
 <!-- TABLE (START) -->
 
@@ -557,6 +550,7 @@ $xl_verticalPadding = '<div style="height: 50px; line-height: 9px; font-size: 7p
                     <div style="display: block; max-width: 270px;"><a href="https://printio.ru/full_print_tees/55667"><img alt="img" src="<?= $img10src; ?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 270px; max-width: 100%;" /></a></div>
                     <?= $s_verticalPadding; ?>
                     <?php showText('белые кружки с печатью'); ?>
+                    <?= $m_verticalPadding; ?>
                   </td>
                 </tr>
               </table>
@@ -571,6 +565,7 @@ $xl_verticalPadding = '<div style="height: 50px; line-height: 9px; font-size: 7p
                     <div style="display: block; max-width: 270px;"><a href="https://printio.ru/full_print_tees/53293"><img alt="img" src="<?= $img11src; ?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 270px; max-width: 100%;" /></a></div>
                     <?= $s_verticalPadding; ?>
                     <?php showText('кружки с цветными ручками и ободком с печатью'); ?>
+                    <?= $m_verticalPadding; ?>
                   </td>
                 </tr>
               </table>
@@ -596,6 +591,7 @@ $xl_verticalPadding = '<div style="height: 50px; line-height: 9px; font-size: 7p
                     <div style="display: block; max-width: 270px;"><a href="https://printio.ru/full_print_tees/55667"><img alt="img" src="<?= $img12src; ?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 270px; max-width: 100%;" /></a></div>
                     <?= $s_verticalPadding; ?>
                     <?php showText('футболка с полной запечаткой мужская'); ?>
+                    <?= $m_verticalPadding; ?>
                   </td>
                 </tr>
               </table>
@@ -610,6 +606,7 @@ $xl_verticalPadding = '<div style="height: 50px; line-height: 9px; font-size: 7p
                     <div style="display: block; max-width: 270px;"><a href="https://printio.ru/full_print_tees/53293"><img alt="img" src="<?= $img13src; ?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 270px; max-width: 100%;" /></a></div>
                     <?= $s_verticalPadding; ?>
                     <?php showText('футболка с полной запечаткой женская'); ?>
+                    <?= $m_verticalPadding; ?>
                   </td>
                 </tr>
               </table>
@@ -635,6 +632,7 @@ $xl_verticalPadding = '<div style="height: 50px; line-height: 9px; font-size: 7p
                     <div style="display: block; max-width: 270px;"><a href="https://printio.ru/full_print_tees/55667"><img alt="img" src="<?= $img14src; ?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 270px; max-width: 100%;" /></a></div>
                     <?= $s_verticalPadding; ?>
                     <?php showText('свитшот с полной запечаткой'); ?>
+                    <?= $m_verticalPadding; ?>
                   </td>
                 </tr>
               </table>
@@ -649,6 +647,7 @@ $xl_verticalPadding = '<div style="height: 50px; line-height: 9px; font-size: 7p
                     <div style="display: block; max-width: 270px;"><a href="https://printio.ru/full_print_tees/53293"><img alt="img" src="<?= $img15src; ?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 270px; max-width: 100%;" /></a></div>
                     <?= $s_verticalPadding; ?>
                     <?php showText('свитшот унисекс'); ?>
+                    <?= $m_verticalPadding; ?>
                   </td>
                 </tr>
               </table>
