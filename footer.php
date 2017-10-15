@@ -80,12 +80,11 @@ if ($isTest) {
                       </td><td width="200" valign="top">
                       <![endif]-->
 
-                      <table class="column_footer" style="max-width: 68px">
+                      <table class="column_footer" style="max-width: 53px">
                         <tr>
                           <td>
                             <a href="https://printio.ru/store/kids_items" style="font-family:Arial, Tahoma, Geneva, sans-serif;color:#000000;font-size:14px;line-height:18px;text-decoration:underline;" target="_blank"><font color="#000000" face="Arial, sans-serif" style="font-size:14px;line-height:18px;text-decoration:underline;"><span style="font-family:Arial, Tahoma, Geneva, sans-serif;color:#000000;font-size:14px;line-height:18px;text-decoration:underline;">ДЕТЯМ</span> </font> </a>
                           </td>
-                          <?= $horizontalPadding; ?>
                         </tr>
                       </table>
 
@@ -131,8 +130,9 @@ if ($isTest) {
                       <td width="200" valign="top">
                       <![endif]-->
                       
-                      <table class="column_footer" style="max-width: 153px">
+                      <table class="column_footer" style="max-width: 168px">
                         <tr>
+                          <?= $horizontalPadding; ?>
                           <td>
                             <a href="https://printio.ru/store/home_supplies" style="font-family:Arial, Tahoma, Geneva, sans-serif;color:#000000;font-size:14px;line-height:18px;text-decoration:underline;" target="_blank"><font color="#000000" face="Arial, sans-serif" style="font-size:14px;line-height:18px;text-decoration:underline;"><span style="font-family:Arial, Tahoma, Geneva, sans-serif;color:#000000;font-size:14px;line-height:18px;text-decoration:underline;">ДОМ&nbsp;И&nbsp;ИНТЕРЬЕР</span> </font> </a>
                           </td>

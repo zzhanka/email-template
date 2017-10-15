@@ -391,7 +391,7 @@ $xl_verticalPadding = '<div style="height: 50px; line-height: 9px; font-size: 7p
             <table border="0" cellpadding="0" cellspacing="0" style="border-spacing:0;font-family:sans-serif;color:#333333;" width="100%">
               <tbody>
                 <tr>
-                  <td style="width:15px;max-width:15px;min-width:15px;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" width="15"></td>
+                  <?= $horizontalPadding; ?>
                   <td align="center" style="padding: 0px; text-align: center;">
                     <?= $l_verticalPadding; ?>
                     <?php showHeaderText('Специально для вас будем рады сделать макеты календарей, блокнотов, ковриков для мышки и многое другое'); ?> 
@@ -399,12 +399,10 @@ $xl_verticalPadding = '<div style="height: 50px; line-height: 9px; font-size: 7p
                     <?= $m_verticalPadding; ?>
                     <table class="outer" align="center">
                       <tr>
-                        <td style="width: 15px; max-width: 15px; min-width: 15px;" width="15"></td>
                         <td align="center">
                           <!-- BUTTON (START) -->
                           <table cellpadding="0" cellspacing="0" border="0" width="250" style="width: 250px !important; max-width: 250px; min-width: 250px; background: #00cf67; border-radius: 3px;">
                             <tr>
-                              <?= $horizontalPadding; ?>
                               <td align="center" valign="middle" height="62">
                                <a href="#" target="_blank" style="display: block; width: 100%; height: 62px; font-family: Verdana, Tahoma, Geneva, sans-serif; color: #ffffff; font-size: 16px; line-height: 62px; text-decoration: none; white-space: nowrap;">
                                 <font face="Verdana, Tahoma, Geneva, sans-serif" color="#ffffff" style="font-size: 16px; line-height: 62px; text-decoration: none; white-space: nowrap;">
@@ -412,13 +410,12 @@ $xl_verticalPadding = '<div style="height: 50px; line-height: 9px; font-size: 7p
                                 </font>
                                </a>
                               </td>
-                              <?= $horizontalPadding; ?>
                             </tr>
                           </table>
                           <!-- BUTTON (END) -->
 
                         </td>
-                        <td style="width: 15px; max-width: 15px; min-width: 15px;" width="15"></td>
+                        <?= $horizontalPadding; ?>
                       </tr>
                     </table>
 
