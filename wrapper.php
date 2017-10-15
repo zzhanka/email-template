@@ -142,6 +142,37 @@
     display: inline-block;
   }
 
+/*Four column layout*/
+  .four-column {
+      text-align: center;
+      font-size: 0;
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+  .four-column .column {
+      width: 100%;
+      max-width: 150px;
+      display: inline-block;
+      vertical-align: top;
+  }
+  .four-column .contents {
+      font-size: 14px;
+      text-align: center;
+  }
+  .four-column img {
+      width: 100%;
+      height: auto;
+  }
+  .four-column .text {
+      padding-top: 10px;
+  }
+
+  .four-column .column > tbody,
+  .four-column .column > tr {
+    display: inline-block;
+  }
+
+
   @media only screen and (max-device-width: 480px) {
 
     .m-center {
