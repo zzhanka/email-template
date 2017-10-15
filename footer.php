@@ -49,7 +49,7 @@ if ($isTest) {
                       <td width="200" valign="top">
                       <![endif]-->
                       
-                      <table class="column">
+                      <table class="column column_100">
                         <tr>
                           <td class="inner">
                             <a href="https://printio.ru/store/clothing/men_tshirts" style="font-family:Arial, Tahoma, Geneva, sans-serif;color:#000000;font-size:14px;line-height:18px;text-decoration:underline;" target="_blank"><font color="#000000" face="Arial, sans-serif" style="font-size:14px;line-height:18px;text-decoration:underline;"><span style="font-family:Arial, Tahoma, Geneva, sans-serif;color:#000000;font-size:14px;line-height:18px;text-decoration:underline;">МУЖЧИНАМ</span> </font> </a>
@@ -61,7 +61,7 @@ if ($isTest) {
                       </td><td width="200" valign="top">
                       <![endif]-->
 
-                      <table class="column">
+                      <table class="column column_100">
                         <tr>
                           <td class="inner">
                             
@@ -75,7 +75,7 @@ if ($isTest) {
                       </td><td width="200" valign="top">
                       <![endif]-->
 
-                      <table class="column">
+                      <table class="column column_100">
                         <tr>
                           <td class="inner">
                             <a href="https://printio.ru/store/kids_items" style="font-family:Arial, Tahoma, Geneva, sans-serif;color:#000000;font-size:14px;line-height:18px;text-decoration:underline;" target="_blank"><font color="#000000" face="Arial, sans-serif" style="font-size:14px;line-height:18px;text-decoration:underline;"><span style="font-family:Arial, Tahoma, Geneva, sans-serif;color:#000000;font-size:14px;line-height:18px;text-decoration:underline;">ДЕТЯМ</span> </font> </a>
@@ -125,10 +125,10 @@ if ($isTest) {
                       <td width="200" valign="top">
                       <![endif]-->
                       
-                      <table class="column">
+                      <table class="column column_100">
                         <tr>
                           <td class="inner">
-                            <a href="https://printio.ru/store/home_supplies" style="font-family:Arial, Tahoma, Geneva, sans-serif;color:#000000;font-size:14px;line-height:18px;text-decoration:underline;" target="_blank"><font color="#000000" face="Arial, sans-serif" style="font-size:14px;line-height:18px;text-decoration:underline;"><span style="font-family:Arial, Tahoma, Geneva, sans-serif;color:#000000;font-size:14px;line-height:18px;text-decoration:underline;">ДОМ И ИНТЕРЬЕР</span> </font> </a>
+                            <a href="https://printio.ru/store/home_supplies" style="font-family:Arial, Tahoma, Geneva, sans-serif;color:#000000;font-size:14px;line-height:18px;text-decoration:underline;" target="_blank"><font color="#000000" face="Arial, sans-serif" style="font-size:14px;line-height:18px;text-decoration:underline;"><span style="font-family:Arial, Tahoma, Geneva, sans-serif;color:#000000;font-size:14px;line-height:18px;text-decoration:underline;">ДОМ&nbsp;И&nbsp;ИНТЕРЬЕР</span> </font> </a>
                           </td>
                         </tr>
                       </table>
@@ -137,7 +137,7 @@ if ($isTest) {
                       </td><td width="200" valign="top">
                       <![endif]-->
 
-                      <table class="column">
+                      <table class="column column_100">
                         <tr>
                           <td class="inner">
                             
@@ -150,7 +150,7 @@ if ($isTest) {
                       </td><td width="200" valign="top">
                       <![endif]-->
 
-                      <table class="column">
+                      <table class="column column_100">
                         <tr>
                           <td class="inner">
                             <a href="https://printio.ru/store/edible" style="font-family:Arial, Tahoma, Geneva, sans-serif;color:#000000;font-size:14px;line-height:18px;text-decoration:underline;" target="_blank"><font color="#000000" face="Arial, sans-serif" style="font-size:14px;line-height:18px;text-decoration:underline;"><span style="font-family:Arial, Tahoma, Geneva, sans-serif;color:#000000;font-size:14px;line-height:18px;text-decoration:underline;">ПРОЧЕЕ</span> </font> </a>

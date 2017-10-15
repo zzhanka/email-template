@@ -142,6 +142,10 @@
     display: inline-block;
   }
 
+  .three-column .column_100 {
+    max-width: 100px;
+  }
+
 /*Four column layout*/
   .four-column {
       text-align: center;
