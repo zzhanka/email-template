@@ -196,7 +196,7 @@ $xl_verticalPadding = '<div style="height: 50px; line-height: 9px; font-size: 7p
             <div class="column_40">
               <table width="100%">
                 <tr>
-                  <td align="left" valign="center">
+                  <td class="inner" align="left" valign="center">
 
                     <?php 
                       showText('<span class="disc">●</span> кружка');
@@ -267,7 +267,7 @@ $xl_verticalPadding = '<div style="height: 50px; line-height: 9px; font-size: 7p
             <div class="column_60">
               <table width="100%">
                 <tr>
-                  <td class="inner" valign="top">
+                  <td valign="top">
                     <div style="display: block; max-width: 372px;width: 372px;"><a href="https://printio.ru/full_print_tees/55667"><img alt="img" src="<?=$img3src;?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 372px; max-width: 100%;" /></a></div>
                   </td>
                   <?=$horizontalPadding;?>
@@ -421,10 +421,10 @@ $xl_verticalPadding = '<div style="height: 50px; line-height: 9px; font-size: 7p
                       </tr>
                     </table>
 
-                    <?= $xl_verticalPadding; ?>
+                    <?= $l_verticalPadding; ?>
 
                     <?php showBigText('Или напишите запрос на <a href="mailto:contact@printio.ru">contact@printio.ru</a>'); ?>
-                    <?= $l_verticalPadding; ?>
+                    <?= $m_verticalPadding; ?>
 
                   </td>
                   <?= $horizontalPadding; ?>
