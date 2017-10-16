@@ -1,5 +1,5 @@
 <?php
-$isTest = true;
+$isTest = false;
 
 if ($isTest) {
   $img1src = 'images/new_year/podarki_na_noviy_god.jpg';
@@ -36,8 +36,39 @@ if ($isTest) {
   $img28src = 'images/new_year/passport.jpg';
   $img29src = 'images/new_year/eksklusivnaya_upakovka.jpg';
 } else {
-  $img1src = '';
-  $img2src = 'url2';
+  $img1src = 'images/ru/user_file?resource=images&amp;user_id=1771961&amp;name=/podarki_na_noviy_god.jpg';
+  $img2src = 'images/ru/user_file?resource=images&amp;user_id=1771961&amp;name=/maliy_budzhet.jpg';
+  $img3src = 'images/ru/user_file?resource=images&amp;user_id=1771961&amp;name=/sredniy_budzhet.jpg';
+  $img4src = 'images/ru/user_file?resource=images&amp;user_id=1771961&amp;name=/ekskluzivnie_podarki.jpg';
+  $img5src = 'images/ru/user_file?resource=images&amp;user_id=1771961&amp;name=/dostavka.png';
+  $img6src = 'images/ru/user_file?resource=images&amp;user_id=1771961&amp;name=/pomosh_s_maketom_obrazci.png';
+  $img7src = 'images/ru/user_file?resource=images&amp;user_id=1771961&amp;name=/upakovka.png';
+  $img8src = 'images/ru/user_file?resource=images&amp;user_id=1771961&amp;name=/sroki.png';
+  $img9src = 'images/ru/user_file?resource=images&amp;user_id=1771961&amp;name=/skidka.jpg';
+
+  $img10src = 'images/ru/user_file?resource=images&amp;user_id=1771961&amp;name=/kruzhka_1.jpg';
+  $img11src = 'images/ru/user_file?resource=images&amp;user_id=1771961&amp;name=/kruzhka_2.jpg';
+  $img12src = 'images/ru/user_file?resource=images&amp;user_id=1771961&amp;name=/futbolka_pz.jpg';
+  
+  $img13src = 'images/ru/user_file?resource=images&amp;user_id=1771961&amp;name=/zhenskaya_pz.jpg';
+  $img14src = 'images/ru/user_file?resource=images&amp;user_id=1771961&amp;name=/svitshot_pz.jpg';
+  $img15src = 'images/ru/user_file?resource=images&amp;user_id=1771961&amp;name=/svitshot_uniseks.jpg';
+
+  $img16src = 'images/ru/user_file?resource=images&amp;user_id=1771961&amp;name=/obiemnie_nakleiki.jpg';
+  $img17src = 'images/ru/user_file?resource=images&amp;user_id=1771961&amp;name=/nabor_nakleek.jpg';
+  $img18src = 'images/ru/user_file?resource=images&amp;user_id=1771961&amp;name=/shokoladnie_nabori.jpg';
+  $img19src = 'images/ru/user_file?resource=images&amp;user_id=1771961&amp;name=/pled_1.jpg';
+  $img20src = 'images/ru/user_file?resource=images&amp;user_id=1771961&amp;name=/pled_2.jpg';
+  $img21src = 'images/ru/user_file?resource=images&amp;user_id=1771961&amp;name=/pled_3.jpg';
+  $img22src = 'images/ru/user_file?resource=images&amp;user_id=1771961&amp;name=/pled_4.jpg';
+
+  $img23src = 'images/ru/user_file?resource=images&amp;user_id=1771961&amp;name=/plakat.jpg';
+  $img24src = 'images/ru/user_file?resource=images&amp;user_id=1771961&amp;name=/kalendari.jpg';
+  $img25src = 'images/ru/user_file?resource=images&amp;user_id=1771961&amp;name=/chehol_1.jpg';
+  $img26src = 'images/ru/user_file?resource=images&amp;user_id=1771961&amp;name=/chehol_2.jpg';
+  $img27src = 'images/ru/user_file?resource=images&amp;user_id=1771961&amp;name=/kovrik.jpg';
+  $img28src = 'images/ru/user_file?resource=images&amp;user_id=1771961&amp;name=/passport.jpg';
+  $img29src = 'images/ru/user_file?resource=images&amp;user_id=1771961&amp;name=/eksklusivnaya_upakovka.jpg';
 }
 
 function showText($text)
