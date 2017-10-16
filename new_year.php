@@ -847,7 +847,7 @@ $xl_verticalPadding = '<div style="height: 50px; line-height: 9px; font-size: 7p
               <table width="100%">
                 <tr>
                   <td class="inner">
-                    <div style="display: block; max-width: 275px;"><a href="https://printio.ru/full_print_tees/53293"><img alt="img" src="<?= $img20src; ?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 275px; max-width: 100%;" /></a></div>
+                    <div style="display: block; max-width: 275px;"><a href="https://printio.ru/full_print_tees/53293"><img alt="img" src="<?= $img21src; ?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 275px; max-width: 100%;" /></a></div>
                   </td>
                 </tr>
               </table>
@@ -898,7 +898,7 @@ $xl_verticalPadding = '<div style="height: 50px; line-height: 9px; font-size: 7p
               <table width="100%">
                 <tr>
                   <td class="inner">
-                    <div style="display: block; max-width: 275px;"><a href="https://printio.ru/full_print_tees/55667"><img alt="img" src="<?= $img21src; ?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 275px; max-width: 100%;" /></a></div>
+                    <div style="display: block; max-width: 275px;"><a href="https://printio.ru/full_print_tees/55667"><img alt="img" src="<?= $img20src; ?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 275px; max-width: 100%;" /></a></div>
                   </td>
                 </tr>
               </table>
