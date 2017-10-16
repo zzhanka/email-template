@@ -240,52 +240,37 @@ if ($isTest) {
       <td>
       <![endif]-->
 
-      <table class="outer" align="center" width="100%">
-        <tr>
-          <td class="two-column" style="border-bottom-color: #cccccc; border-bottom-width: 2px; border-bottom-style: solid; border-top-color: #cccccc; border-top-width: 2px; border-top-style: solid;">
-            <!--[if (gte mso 9)|(IE)]>
-            <table width="100%">
-            <tr>
-            <td width="50%" valign="top">
-            <![endif]-->
-            <div class="column" style="vertical-align: middle">
-              <table width="100%">
+      <table border="0" cellpadding="0" cellspacing="0" class="header" style="border-bottom-color:#cccccc;border-bottom-width:1px;border-bottom-style:solid;border-top-color:#cccccc;border-top-width:1px;border-top-style:solid;border-spacing:0;font-family:sans-serif;color:#333333;" width="100%">
+              <tbody>
+                <tr>
+                  <td>
+                  <div style="height: 5px; line-height: 50px; font-size: 7px;"></div>
+                  </td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
                 <tr>
                   <td style="width:15px;max-width:15px;min-width:15px;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" width="15"></td>
-                  <td class="inner" style="padding: 0">
-                    <div style="height: 5px; line-height: 5px; font-size: 7px;"></div>
-                    <div class="m-center" style="max-width: 140px;"><a target="_blank" style="text-decoration: none; display: block; width: 140px; max-width: 100%;" href="https://printio.ru/"><img alt="Printio" border="0" width="140" height="61px" src="<?= $logo; ?>" style="display: block; width: 140px; max-width: 100%;" /></a></div>
-                    <div style="height: 5px; line-height: 5px; font-size: 7px;"></div>
+                  <td style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;">
+                  <div style="display:block;max-width:140px;"><a href="https://printio.ru/" style="text-decoration:none;display:block;width:140px;max-width:100%;color:#ee6a56;" target="_blank"><img alt="Printio" border="0" height="61px" src="<?= $logo; ?>" style="display:block;width:140px;max-width:100%;border-width:0;" width="140" /></a></div>
                   </td>
+                  <td style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;"><u><a href="https://printio.ru/classic_tees/new" style="font-family:Arial, Tahoma, Geneva, sans-serif;color:#007F00;font-size:16px;line-height:18px;font-weight:underline;text-decoration:none;" target="_self"><font color="#007F00" face="Arial, sans-serif" style="font-size:16px;font-weight:underline;line-height:18px;text-decoration:none;"><span style="font-family:Arial, Tahoma, Geneva, sans-serif;font-weight:underline;color:#000000;font-size:16px;line-height:18px;text-decoration:none;">СВОЙ ДИЗАЙН</span> </font> </a></u></td>
+                  <td style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;"><u><a href="https://printio.ru/store/clothing" style="font-family:Arial, Tahoma, Geneva, sans-serif;font-weight:underline;color:#000000;font-size:16px;line-height:18px;text-decoration:none;" target="_self"><font color="#007F00" face="Arial, sans-serif" style="font-size:16px;font-weight:underline;line-height:18px;text-decoration:none;"><span style="font-family:Arial, Tahoma, Geneva, sans-serif;color:#000000;font-size:16px;line-height:18px;text-decoration:none;">МАГАЗИН</span> </font> </a></u></td>
+                  <td style="width:15px;max-width:15px;min-width:15px;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" width="15"></td>
                 </tr>
-              </table>
-            </div>
-            <!--[if (gte mso 9)|(IE)]>
-            </td><td width="50%" valign="top">
-            <![endif]-->
-            <div class="column" style="vertical-align: middle">
-              <table width="100%">
                 <tr>
-                  <td class="inner">
-                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
-                      <tr>
-                        <td><u><a href="https://printio.ru/classic_tees/new" style="font-family:Arial, Tahoma, Geneva, sans-serif;color:#007F00;font-size:16px;line-height:18px;font-weight:underline;text-decoration:none;" target="_self"><font color="#007F00" face="Arial, sans-serif" style="font-size:16px;font-weight:underline;line-height:18px;text-decoration:none;"><span style="font-family:Arial, Tahoma, Geneva, sans-serif;font-weight:underline;color:#000000;font-size:16px;line-height:18px;text-decoration:none;">СВОЙ ДИЗАЙН</span> </font> </a></u></td>
-                        <td style="width: 15px; max-width: 15px; min-width: 15px;" width="15"></td>
-                        <td><u><a href="https://printio.ru/store/clothing" style="font-family:Arial, Tahoma, Geneva, sans-serif;font-weight:underline;color:#000000;font-size:16px;line-height:18px;text-decoration:none;" target="_self"><font color="#007F00" face="Arial, sans-serif" style="font-size:16px;font-weight:underline;line-height:18px;text-decoration:none;"><span style="font-family:Arial, Tahoma, Geneva, sans-serif;color:#000000;font-size:16px;line-height:18px;text-decoration:none;">МАГАЗИН</span> </font> </a></u></td>
-                      </tr>
-                    </table>
+                  <td>
+                  <div style="height: 5px; line-height: 50px; font-size: 7px;"></div>
                   </td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
                 </tr>
-              </table>
-            </div>
-            <!--[if (gte mso 9)|(IE)]>
-            </td>
-            </tr>
+              </tbody>
             </table>
-            <![endif]-->
-          </td>
-        </tr>
-      </table>
 
       <!-- HEADER (END) -->
 
