@@ -271,8 +271,10 @@ if ($isTest) {
                 </tr>
                 <tr>
                   <td>
-                  <div style="height: 5px; line-height: 50px; font-size: 7px;"></div>
+                    <div style="height: 5px; line-height: 50px; font-size: 7px;"></div>
                   </td>
+                  <td></td>
+                  <td></td>
                   <td></td>
                   <td></td>
                   <td></td>

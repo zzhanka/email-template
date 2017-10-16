@@ -95,6 +95,8 @@ $m_verticalPadding = '<div style="height: 20px; line-height: 9px; font-size: 7px
 $l_verticalPadding = '<div style="height: 30px; line-height: 9px; font-size: 7px;"></div>';
 $xl_verticalPadding = '<div style="height: 50px; line-height: 9px; font-size: 7px;"></div>';
 
+$link_style = "style='text-decoration:underline; font-family: verdana, arial, sans-serif; color: #231f1c; font-size: 16px; line-height: 18px;";
+
 ?>
 
 <?= $m_verticalPadding; ?>
@@ -452,7 +454,6 @@ $xl_verticalPadding = '<div style="height: 50px; line-height: 9px; font-size: 7p
                           <!-- BUTTON (END) -->
 
                         </td>
-                        <?= $horizontalPadding; ?>
                       </tr>
                     </table>
 
@@ -521,7 +522,7 @@ $xl_verticalPadding = '<div style="height: 50px; line-height: 9px; font-size: 7p
       <tr>
       <td>
       <![endif]-->
-      <table class="outer" align="center">
+      <table class="outer" align="center" valign="top">
         <tr>
           <td class="inner" align="center" width="50%">
             <div style="display: block; max-width: 270px;"><a href="http://printio.ru/a742d7f8755260cee66b7d802c862833"><img alt="белые кружки с печатью" src="<?= $img10src; ?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 270px; max-width: 100%;" /></a></div>
@@ -535,12 +536,12 @@ $xl_verticalPadding = '<div style="height: 50px; line-height: 9px; font-size: 7p
         </tr>
         <tr>
           <td class="inner" align="center">
-            <?php showText('белые кружки с печатью'); ?>
+            <a <?= $link_style; ?> href="http://printio.ru/a742d7f8755260cee66b7d802c862833"><?php showText('белые кружки с печатью'); ?></a>
             <?= $m_verticalPadding; ?>
           </td>
           <?= $horizontalPadding; ?>
           <td class="inner" align="center">
-            <?php showText('кружки с цветными ручками и ободком с печатью'); ?>
+            <a <?= $link_style; ?> href="http://printio.ru/9f71b03ff3904414c8e8d674d88837fe"><?php showText('кружки с цветными ручками и ободком с печатью'); ?></a>
             <?= $m_verticalPadding; ?>
           </td>
         </tr>
@@ -559,12 +560,12 @@ $xl_verticalPadding = '<div style="height: 50px; line-height: 9px; font-size: 7p
 
         <tr>
           <td class="inner" align="center" width="50%">
-            <?php showText('футболка с полной запечаткой мужская'); ?>
+            <a <?= $link_style; ?> href="http://printio.ru/acf6378183943f928668778335e3f08f"><?php showText('футболка с полной запечаткой мужская'); ?></a>
             <?= $m_verticalPadding; ?>
           </td>
           <?= $horizontalPadding; ?>
           <td class="inner" align="center" width="50%">
-            <?php showText('футболка с полной запечаткой женская'); ?>
+            <a <?= $link_style; ?> href="http://printio.ru/34936659eb3bc68c37324b3b6655a028"><?php showText('футболка с полной запечаткой женская'); ?></a>
             <?= $m_verticalPadding; ?>
           </td>
         </tr>
@@ -583,12 +584,12 @@ $xl_verticalPadding = '<div style="height: 50px; line-height: 9px; font-size: 7p
 
         <tr>
           <td class="inner" align="center" width="50%">
-            <?php showText('свитшот с полной запечаткой'); ?>
+            <a <?= $link_style; ?> href="http://printio.ru/355168a7b65f55267790d5f8c5f81697"><?php showText('свитшот с полной запечаткой'); ?>
             <?= $m_verticalPadding; ?>
           </td>
           <?= $horizontalPadding; ?>
           <td class="inner" align="center" width="50%">
-            <?php showText('свитшот унисекс'); ?>
+            <a <?= $link_style; ?> href="http://printio.ru/e0f75d565434ab059922ce61048ac9a8"><?php showText('свитшот унисекс'); ?></a>
             <?= $m_verticalPadding; ?>
           </td>
         </tr>
@@ -707,11 +708,11 @@ $xl_verticalPadding = '<div style="height: 50px; line-height: 9px; font-size: 7p
         <tr>
           
           <td class="inner" align="center">
-            <?php showText('плакаты'); ?>
+            <a <?= $link_style; ?> href="http://printio.ru/99e76bc12d096463ebdd6c84eb97d326"><?php showText('плакаты'); ?></a>
           </td>
           <?= $horizontalPadding; ?>
           <td class="inner" align="center">
-            <?php showText('одностраничные календари'); ?>
+            <a <?= $link_style; ?> href="http://printio.ru/1ef87a8ca8ed9a9fbc9ca7b0bcd7cd4f"><?php showText('одностраничные календари'); ?></a>
           </td>
                 
         </tr>
@@ -792,11 +793,11 @@ $xl_verticalPadding = '<div style="height: 50px; line-height: 9px; font-size: 7p
         <tr>
     
             <td class="inner" align="center">
-              <?php showText('коврики для мышки'); ?>
+              <a <?= $link_style; ?> href="http://printio.ru/588ddf12ab0445d9121d37a51c8c438f"><?php showText('коврики для мышки'); ?></a>
             </td>
           
             <td class="inner" align="center">
-              <?php showText('обложки для паспорта'); ?>
+              <a <?= $link_style; ?> href="http://printio.ru/9fd0280d5d6e300e7f1c9490df714c1b"><?php showText('обложки для паспорта'); ?></a>
             </td>
                 
         </tr>
@@ -985,7 +986,6 @@ $xl_verticalPadding = '<div style="height: 50px; line-height: 9px; font-size: 7p
       <!-- BUTTON (END) -->
 
     </td>
-    <?= $horizontalPadding; ?>
   </tr>
 </table>
 
