@@ -302,6 +302,7 @@ $xl_verticalPadding = '<div style="height: 50px; line-height: 9px; font-size: 7p
                 <tr>
                   <td valign="top">
                     <div style="display: block; max-width: 372px;width: 372px;"><a href="https://printio.ru/full_print_tees/55667"><img alt="img" src="<?=$img3src;?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 372px; max-width: 100%;" /></a></div>
+                    <?= $s_verticalPadding; ?>
                   </td>
                   <?=$horizontalPadding;?>
                 </tr>
@@ -482,7 +483,6 @@ $xl_verticalPadding = '<div style="height: 50px; line-height: 9px; font-size: 7p
 <hr/>
 <?= $l_verticalPadding; ?>
 
-<?= $m_verticalPadding; ?>
 <table class="outer" align="center">
   <tr>
     <?= $horizontalPadding; ?>
@@ -493,8 +493,6 @@ $xl_verticalPadding = '<div style="height: 50px; line-height: 9px; font-size: 7p
   </tr>
 </table>
 <?= $m_verticalPadding; ?>
-
-
 
 
 <?php include_once('advantage.php'); ?>
@@ -528,50 +526,71 @@ $xl_verticalPadding = '<div style="height: 50px; line-height: 9px; font-size: 7p
           <td class="inner">
             <div style="display: block; max-width: 270px;"><a href="http://printio.ru/a742d7f8755260cee66b7d802c862833"><img alt="белые кружки с печатью" src="<?= $img10src; ?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 270px; max-width: 100%;" /></a></div>
             <?= $s_verticalPadding; ?>
-            <?php showText('белые кружки с печатью'); ?>
-            <?= $m_verticalPadding; ?>
           </td>
           <?= $horizontalPadding; ?>
           <td class="inner">
             <div style="display: block; max-width: 270px;"><a href="http://printio.ru/9f71b03ff3904414c8e8d674d88837fe"><img alt="кружки с цветными ручками и ободком с печатью" src="<?= $img11src; ?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 270px; max-width: 100%;" /></a></div>
             <?= $s_verticalPadding; ?>
+          </td>
+        </tr>
+        <tr>
+          <td class="inner">
+            <?php showText('белые кружки с печатью'); ?>
+            <?= $m_verticalPadding; ?>
+          </td>
+          <?= $horizontalPadding; ?>
+          <td class="inner">
             <?php showText('кружки с цветными ручками и ободком с печатью'); ?>
             <?= $m_verticalPadding; ?>
           </td>
         </tr>
+
         <tr>
-          
           <td class="inner">
             <div style="display: block; max-width: 270px;"><a href="http://printio.ru/acf6378183943f928668778335e3f08f"><img alt="футболка с полной запечаткой мужская" src="<?= $img12src; ?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 270px; max-width: 100%;" /></a></div>
             <?= $s_verticalPadding; ?>
-            <?php showText('футболка с полной запечаткой мужская'); ?>
-            <?= $m_verticalPadding; ?>
           </td>
           <?= $horizontalPadding; ?>
           <td class="inner">
             <div style="display: block; max-width: 270px;"><a href="http://printio.ru/34936659eb3bc68c37324b3b6655a028"><img alt="футболка с полной запечаткой женская" src="<?= $img13src; ?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 270px; max-width: 100%;" /></a></div>
             <?= $s_verticalPadding; ?>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="inner">
+            <?php showText('футболка с полной запечаткой мужская'); ?>
+            <?= $m_verticalPadding; ?>
+          </td>
+          <?= $horizontalPadding; ?>
+          <td class="inner">
             <?php showText('футболка с полной запечаткой женская'); ?>
             <?= $m_verticalPadding; ?>
           </td>
-                
         </tr>
+
         <tr>
-  
           <td class="inner">
             <div style="display: block; max-width: 270px;"><a href="http://printio.ru/355168a7b65f55267790d5f8c5f81697"><img alt="свитшот с полной запечаткой" src="<?= $img14src; ?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 270px; max-width: 100%;" /></a></div>
             <?= $s_verticalPadding; ?>
-            <?php showText('свитшот с полной запечаткой'); ?>
-            <?= $m_verticalPadding; ?>
           </td>
           <?= $horizontalPadding; ?>
           <td class="inner">
             <div style="display: block; max-width: 270px;"><a href="http://printio.ru/e0f75d565434ab059922ce61048ac9a8"><img alt="свитшот унисекс" src="<?= $img15src; ?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 270px; max-width: 100%;" /></a></div>
             <?= $s_verticalPadding; ?>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="inner">
+            <?php showText('свитшот с полной запечаткой'); ?>
+            <?= $m_verticalPadding; ?>
+          </td>
+          <?= $horizontalPadding; ?>
+          <td class="inner">
             <?php showText('свитшот унисекс'); ?>
             <?= $m_verticalPadding; ?>
           </td>
-                
         </tr>
       </table>
       <!--[if (gte mso 9)|(IE)]>
@@ -676,16 +695,27 @@ $xl_verticalPadding = '<div style="height: 50px; line-height: 9px; font-size: 7p
           <td class="inner">
             <div style="display: block; max-width: 275px;"><a href="http://printio.ru/99e76bc12d096463ebdd6c84eb97d326"><img alt="плакаты" src="<?= $img23src; ?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 275px; max-width: 100%;" /></a></div>
             <?= $s_verticalPadding; ?>
-            <?php showText('плакаты'); ?>
           </td>
           <?= $horizontalPadding; ?>
           <td class="inner">
             <div style="display: block; max-width: 275px;"><a href="http://printio.ru/1ef87a8ca8ed9a9fbc9ca7b0bcd7cd4f"><img alt="одностраничные календари" src="<?= $img24src; ?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 275px; max-width: 100%;" /></a></div>
             <?= $s_verticalPadding; ?>
+          </td>
+                
+        </tr>
+
+        <tr>
+          
+          <td class="inner" align="center">
+            <?php showText('плакаты'); ?>
+          </td>
+          <?= $horizontalPadding; ?>
+          <td class="inner" align="center">
             <?php showText('одностраничные календари'); ?>
           </td>
                 
         </tr>
+
       </table>
       <!--[if (gte mso 9)|(IE)]>
       </td>
@@ -748,15 +778,24 @@ $xl_verticalPadding = '<div style="height: 50px; line-height: 9px; font-size: 7p
       <table class="outer" align="center">
         <tr>
     
-            <td class="inner">
+            <td class="inner" align="center">
               <div style="display: block; max-width: 275px;"><a href="http://printio.ru/588ddf12ab0445d9121d37a51c8c438f"><img alt="коврики для мышки" src="<?= $img27src; ?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 275px; max-width: 100%;" /></a></div>
               <?= $s_verticalPadding; ?>
+            </td>
+          
+            <td class="inner" align="center">
+              <div style="display: block; max-width: 275px;"><a href="http://printio.ru/9fd0280d5d6e300e7f1c9490df714c1b"><img alt="обложки для паспорта" src="<?= $img28src; ?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 275px; max-width: 100%;" /></a></div>
+              <?= $s_verticalPadding; ?>
+            </td>
+                
+        </tr>
+        <tr>
+    
+            <td class="inner" align="center">
               <?php showText('коврики для мышки'); ?>
             </td>
           
-            <td class="inner">
-              <div style="display: block; max-width: 275px;"><a href="http://printio.ru/9fd0280d5d6e300e7f1c9490df714c1b"><img alt="обложки для паспорта" src="<?= $img28src; ?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 275px; max-width: 100%;" /></a></div>
-              <?= $s_verticalPadding; ?>
+            <td class="inner" align="center">
               <?php showText('обложки для паспорта'); ?>
             </td>
                 
