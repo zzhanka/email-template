@@ -1,5 +1,5 @@
 <?php
-$isTest = true;
+$isTest = false;
 
 if ($isTest) {
   $img1src = 'images/new_year/podarki_na_noviy_god.jpg';
