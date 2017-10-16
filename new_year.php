@@ -1,5 +1,5 @@
 <?php
-$isTest = true;
+$isTest = false;
 
 if ($isTest) {
   $img1src = 'images/new_year/podarki_na_noviy_god.jpg';
@@ -523,71 +523,71 @@ $xl_verticalPadding = '<div style="height: 50px; line-height: 9px; font-size: 7p
       <![endif]-->
       <table class="outer" align="center">
         <tr>
-          <td class="inner">
+          <td class="inner" align="center" width="50%">
             <div style="display: block; max-width: 270px;"><a href="http://printio.ru/a742d7f8755260cee66b7d802c862833"><img alt="белые кружки с печатью" src="<?= $img10src; ?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 270px; max-width: 100%;" /></a></div>
             <?= $s_verticalPadding; ?>
           </td>
           <?= $horizontalPadding; ?>
-          <td class="inner">
+          <td class="inner" align="center" width="50%">
             <div style="display: block; max-width: 270px;"><a href="http://printio.ru/9f71b03ff3904414c8e8d674d88837fe"><img alt="кружки с цветными ручками и ободком с печатью" src="<?= $img11src; ?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 270px; max-width: 100%;" /></a></div>
             <?= $s_verticalPadding; ?>
           </td>
         </tr>
         <tr>
-          <td class="inner">
+          <td class="inner" align="center">
             <?php showText('белые кружки с печатью'); ?>
             <?= $m_verticalPadding; ?>
           </td>
           <?= $horizontalPadding; ?>
-          <td class="inner">
+          <td class="inner" align="center">
             <?php showText('кружки с цветными ручками и ободком с печатью'); ?>
             <?= $m_verticalPadding; ?>
           </td>
         </tr>
 
         <tr>
-          <td class="inner">
+          <td class="inner" align="center" width="50%">
             <div style="display: block; max-width: 270px;"><a href="http://printio.ru/acf6378183943f928668778335e3f08f"><img alt="футболка с полной запечаткой мужская" src="<?= $img12src; ?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 270px; max-width: 100%;" /></a></div>
             <?= $s_verticalPadding; ?>
           </td>
           <?= $horizontalPadding; ?>
-          <td class="inner">
+          <td class="inner" align="center" width="50%">
             <div style="display: block; max-width: 270px;"><a href="http://printio.ru/34936659eb3bc68c37324b3b6655a028"><img alt="футболка с полной запечаткой женская" src="<?= $img13src; ?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 270px; max-width: 100%;" /></a></div>
             <?= $s_verticalPadding; ?>
           </td>
         </tr>
 
         <tr>
-          <td class="inner">
+          <td class="inner" align="center" width="50%">
             <?php showText('футболка с полной запечаткой мужская'); ?>
             <?= $m_verticalPadding; ?>
           </td>
           <?= $horizontalPadding; ?>
-          <td class="inner">
+          <td class="inner" align="center" width="50%">
             <?php showText('футболка с полной запечаткой женская'); ?>
             <?= $m_verticalPadding; ?>
           </td>
         </tr>
 
         <tr>
-          <td class="inner">
+          <td class="inner" align="center" width="50%">
             <div style="display: block; max-width: 270px;"><a href="http://printio.ru/355168a7b65f55267790d5f8c5f81697"><img alt="свитшот с полной запечаткой" src="<?= $img14src; ?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 270px; max-width: 100%;" /></a></div>
             <?= $s_verticalPadding; ?>
           </td>
           <?= $horizontalPadding; ?>
-          <td class="inner">
+          <td class="inner" align="center" width="50%">
             <div style="display: block; max-width: 270px;"><a href="http://printio.ru/e0f75d565434ab059922ce61048ac9a8"><img alt="свитшот унисекс" src="<?= $img15src; ?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 270px; max-width: 100%;" /></a></div>
             <?= $s_verticalPadding; ?>
           </td>
         </tr>
 
         <tr>
-          <td class="inner">
+          <td class="inner" align="center" width="50%">
             <?php showText('свитшот с полной запечаткой'); ?>
             <?= $m_verticalPadding; ?>
           </td>
           <?= $horizontalPadding; ?>
-          <td class="inner">
+          <td class="inner" align="center" width="50%">
             <?php showText('свитшот унисекс'); ?>
             <?= $m_verticalPadding; ?>
           </td>
@@ -692,7 +692,7 @@ $xl_verticalPadding = '<div style="height: 50px; line-height: 9px; font-size: 7p
       <table class="outer" align="center">
         <tr>
           
-          <td class="inner">
+          <td class="inner" align="center">
             <div style="display: block; max-width: 275px;"><a href="http://printio.ru/99e76bc12d096463ebdd6c84eb97d326"><img alt="плакаты" src="<?= $img23src; ?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 275px; max-width: 100%;" /></a></div>
             <?= $s_verticalPadding; ?>
           </td>
