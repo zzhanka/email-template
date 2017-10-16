@@ -207,7 +207,7 @@ $link_style = "style=\"text-decoration:underline; font-family: verdana, arial, s
       <![endif]-->
       <table class="outer" align="left">
         <tr>
-          <td class="two-column two-column_left">
+          <td class="two-column two-column_left" align="left">
             <!--[if (gte mso 9)|(IE)]>
             <table width="100%">
             <tr>
@@ -217,7 +217,7 @@ $link_style = "style=\"text-decoration:underline; font-family: verdana, arial, s
               <table width="100%">
                 <tr>
                   <td valign="top">
-                    <div style="display: block; max-width: 372px;width: 372px;"><img alt="img" src="<?=$img2src;?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 372px; max-width: 100%;" /></div>
+                    <div style="display: block; max-width: 372px;width: 372px;"><img alt="Небольшой бюджет" src="<?=$img2src;?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 372px; max-width: 100%;" /></div>
                     <?= $s_verticalPadding; ?>
                   </td>
                   <?= $horizontalPadding; ?>
@@ -228,7 +228,7 @@ $link_style = "style=\"text-decoration:underline; font-family: verdana, arial, s
             </td><td width="50%" valign="top">
             <![endif]-->
             <div class="column_40">
-              <table width="100%">
+              <table width="100%" align="left">
                 <tr>
                   <?= $horizontalPadding; ?>
                   <td align="left" valign="center">
@@ -291,9 +291,9 @@ $link_style = "style=\"text-decoration:underline; font-family: verdana, arial, s
       <tr>
       <td>
       <![endif]-->
-      <table class="outer" align="center">
+      <table class="outer" align="left">
         <tr>
-          <td class="two-column two-column_left">
+          <td class="two-column two-column_left" align="left">
             <!--[if (gte mso 9)|(IE)]>
             <table width="100%">
             <tr>
@@ -303,7 +303,7 @@ $link_style = "style=\"text-decoration:underline; font-family: verdana, arial, s
               <table width="100%">
                 <tr>
                   <td valign="top">
-                    <div style="display: block; max-width: 372px;width: 372px;"><img alt="img" src="<?=$img3src;?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 372px; max-width: 100%;" /></div>
+                    <div style="display: block; max-width: 372px;width: 372px;"><img alt="Средний бюджет" src="<?=$img3src;?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 372px; max-width: 100%;" /></div>
                     <?= $s_verticalPadding; ?>
                   </td>
                   <?=$horizontalPadding;?>
@@ -314,7 +314,7 @@ $link_style = "style=\"text-decoration:underline; font-family: verdana, arial, s
             </td><td width="50%" valign="top">
             <![endif]-->
             <div class="column_40">
-              <table width="100%">
+              <table width="100%" align="left">
                 <tr>
                   <?= $horizontalPadding; ?>
                   <td align="left" valign="center">
@@ -654,11 +654,11 @@ $link_style = "style=\"text-decoration:underline; font-family: verdana, arial, s
         <tr>
           
           <td class="inner">
-            <div style="display: block; max-width: 275px;"><a href="http://printio.ru/88e531a7e71a87a59f34d2eb4c2455ce"><img alt="img" src="<?= $img20src; ?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 275px; max-width: 100%;" /></a></div>
+            <div style="display: block; max-width: 275px;"><a href="http://printio.ru/88e531a7e71a87a59f34d2eb4c2455ce"><img alt="флисовый плед с новогодней тематикой" src="<?= $img20src; ?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 275px; max-width: 100%;" /></a></div>
           </td>
           <?= $horizontalPadding; ?>
           <td class="inner">
-            <div style="display: block; max-width: 275px;"><a href="http://printio.ru/ebb4da3bba848db4e07a046778813452"><img alt="img" src="<?= $img22src; ?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 275px; max-width: 100%;" /></a></div>
+            <div style="display: block; max-width: 275px;"><a href="http://printio.ru/ebb4da3bba848db4e07a046778813452"><img alt="флисовый плед с новогодней тематикой" src="<?= $img22src; ?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 275px; max-width: 100%;" /></a></div>
           </td>
                 
         </tr>
