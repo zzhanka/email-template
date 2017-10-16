@@ -965,7 +965,6 @@ $xl_verticalPadding = '<div style="height: 50px; line-height: 9px; font-size: 7p
 </table>
 <?= $l_verticalPadding; ?>
 
-<?= $l_verticalPadding; ?>
 <table class="outer" align="center">
   <tr>
     <td align="center">
