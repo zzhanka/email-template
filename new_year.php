@@ -535,12 +535,12 @@ $link_style = "style='text-decoration:underline; font-family: verdana, arial, sa
           </td>
         </tr>
         <tr>
-          <td class="inner" align="center">
+          <td class="inner" align="center" valign="top">
             <a <?= $link_style; ?> href="http://printio.ru/a742d7f8755260cee66b7d802c862833"><?php showText('белые кружки с печатью'); ?></a>
             <?= $m_verticalPadding; ?>
           </td>
           <?= $horizontalPadding; ?>
-          <td class="inner" align="center">
+          <td class="inner" align="center" valign="top">
             <a <?= $link_style; ?> href="http://printio.ru/9f71b03ff3904414c8e8d674d88837fe"><?php showText('кружки с цветными ручками и ободком с печатью'); ?></a>
             <?= $m_verticalPadding; ?>
           </td>
@@ -559,12 +559,12 @@ $link_style = "style='text-decoration:underline; font-family: verdana, arial, sa
         </tr>
 
         <tr>
-          <td class="inner" align="center" width="50%">
+          <td class="inner" align="center" width="50%" valign="top">
             <a <?= $link_style; ?> href="http://printio.ru/acf6378183943f928668778335e3f08f"><?php showText('футболка с полной запечаткой мужская'); ?></a>
             <?= $m_verticalPadding; ?>
           </td>
           <?= $horizontalPadding; ?>
-          <td class="inner" align="center" width="50%">
+          <td class="inner" align="center" width="50%" valign="top">
             <a <?= $link_style; ?> href="http://printio.ru/34936659eb3bc68c37324b3b6655a028"><?php showText('футболка с полной запечаткой женская'); ?></a>
             <?= $m_verticalPadding; ?>
           </td>
@@ -583,12 +583,12 @@ $link_style = "style='text-decoration:underline; font-family: verdana, arial, sa
         </tr>
 
         <tr>
-          <td class="inner" align="center" width="50%">
+          <td class="inner" align="center" width="50%" valign="top">
             <a <?= $link_style; ?> href="http://printio.ru/355168a7b65f55267790d5f8c5f81697"><?php showText('свитшот с полной запечаткой'); ?>
             <?= $m_verticalPadding; ?>
           </td>
           <?= $horizontalPadding; ?>
-          <td class="inner" align="center" width="50%">
+          <td class="inner" align="center" width="50%" valign="top">
             <a <?= $link_style; ?> href="http://printio.ru/e0f75d565434ab059922ce61048ac9a8"><?php showText('свитшот унисекс'); ?></a>
             <?= $m_verticalPadding; ?>
           </td>
@@ -707,11 +707,11 @@ $link_style = "style='text-decoration:underline; font-family: verdana, arial, sa
 
         <tr>
           
-          <td class="inner" align="center">
+          <td class="inner" align="center" valign="top">
             <a <?= $link_style; ?> href="http://printio.ru/99e76bc12d096463ebdd6c84eb97d326"><?php showText('плакаты'); ?></a>
           </td>
           <?= $horizontalPadding; ?>
-          <td class="inner" align="center">
+          <td class="inner" align="center" valign="top">
             <a <?= $link_style; ?> href="http://printio.ru/1ef87a8ca8ed9a9fbc9ca7b0bcd7cd4f"><?php showText('одностраничные календари'); ?></a>
           </td>
                 
@@ -792,11 +792,11 @@ $link_style = "style='text-decoration:underline; font-family: verdana, arial, sa
         </tr>
         <tr>
     
-            <td class="inner" align="center">
+            <td class="inner" align="center" valign="top">
               <a <?= $link_style; ?> href="http://printio.ru/588ddf12ab0445d9121d37a51c8c438f"><?php showText('коврики для мышки'); ?></a>
             </td>
           
-            <td class="inner" align="center">
+            <td class="inner" align="center" valign="top">
               <a <?= $link_style; ?> href="http://printio.ru/9fd0280d5d6e300e7f1c9490df714c1b"><?php showText('обложки для паспорта'); ?></a>
             </td>
                 
