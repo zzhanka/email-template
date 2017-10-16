@@ -842,43 +842,19 @@ $xl_verticalPadding = '<div style="height: 50px; line-height: 9px; font-size: 7p
       <![endif]-->
       <table class="outer" align="center">
         <tr>
-          <td class="two-column">
-            <!--[if (gte mso 9)|(IE)]>
-            <table width="100%">
-            <tr>
-            <td width="50%" valign="top">
-            <![endif]-->
-            <div class="column">
-              <table width="100%">
-                <tr>
-                  <td class="inner">
-                    <div style="display: block; max-width: 275px;"><a href="https://printio.ru/full_print_tees/55667"><img alt="img" src="<?= $img27src; ?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 275px; max-width: 100%;" /></a></div>
-                    <?= $s_verticalPadding; ?>
-                    <?php showText('коврики для мышки'); ?>
-                  </td>
-                </tr>
-              </table>
-            </div>
-            <!--[if (gte mso 9)|(IE)]>
-            </td><td width="50%" valign="top">
-            <![endif]-->
-            <div class="column">
-              <table width="100%">
-                <tr>
-                  <td class="inner">
-                    <div style="display: block; max-width: 275px;"><a href="https://printio.ru/full_print_tees/53293"><img alt="img" src="<?= $img28src; ?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 275px; max-width: 100%;" /></a></div>
-                    <?= $s_verticalPadding; ?>
-                    <?php showText('обложки для паспорта'); ?>
-                  </td>
-                </tr>
-              </table>
-            </div>
-            <!--[if (gte mso 9)|(IE)]>
+    
+            <td class="inner">
+              <div style="display: block; max-width: 275px;"><a href="https://printio.ru/full_print_tees/55667"><img alt="img" src="<?= $img27src; ?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 275px; max-width: 100%;" /></a></div>
+              <?= $s_verticalPadding; ?>
+              <?php showText('коврики для мышки'); ?>
             </td>
-            </tr>
-            </table>
-            <![endif]-->
-          </td>
+          
+            <td class="inner">
+              <div style="display: block; max-width: 275px;"><a href="https://printio.ru/full_print_tees/53293"><img alt="img" src="<?= $img28src; ?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 275px; max-width: 100%;" /></a></div>
+              <?= $s_verticalPadding; ?>
+              <?php showText('обложки для паспорта'); ?>
+            </td>
+                
         </tr>
       </table>
       <!--[if (gte mso 9)|(IE)]>
