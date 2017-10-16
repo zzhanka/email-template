@@ -41,7 +41,7 @@ if ($isTest) {
                   <td style="width:15px;max-width:15px;min-width:15px;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" width="15"></td>
                   <td style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" valign="middle">
                   <div style="height:9px;line-height:9px;font-size:7px;"></div>
-                  <a href="https://printio.ru/store/home_supplies" style="font-family:Arial, Tahoma, Geneva, sans-serif;color:#000000;font-size:14px;line-height:18px;text-decoration:underline;" target="_blank"><font color="#000000" face="Arial, sans-serif" style="font-size:14px;line-height:18px;text-decoration:underline;"><span style="font-family:Arial, Tahoma, Geneva, sans-serif;color:#000000;font-size:14px;line-height:18px;text-decoration:underline;">ДОМ И ИНТЕРЬЕР</span> </font> </a>
+                  <a href="https://printio.ru/store/home_supplies" style="font-family:Arial, Tahoma, Geneva, sans-serif;color:#000000;font-size:14px;line-height:18px;text-decoration:underline;" target="_blank"><font color="#000000" face="Arial, sans-serif" style="font-size:14px;line-height:18px;text-decoration:underline;"><span style="font-family:Arial, Tahoma, Geneva, sans-serif;color:#000000;font-size:14px;line-height:18px;text-decoration:underline;">ДОМ&nbsp;И&nbsp;ИНТЕРЬЕР</span> </font> </a>
 
                   <div style="height:9px;line-height:9px;font-size:7px;"></div>
                   </td>

@@ -1,70 +1,20 @@
-<table class="outer" align="center">
-      <tr>
-        <td class="four-column">
-          <!--[if (gte mso 9)|(IE)]>
-          <table width="100%">
-          <tr>
-          <td width="150" valign="top">
-          <![endif]-->
-          <div class="column">
-            <table width="100%">
-              <tr>
-                <td class="inner">
-                  <img src="<?=$img5src;?>" border="0" style="width:108px;height:108px;max-width:100%;"/><div style="height: 10px; line-height: 10px; font-size: 7px;"></div>
-                  <?= $m_verticalPadding; ?>
-                  <?php showText('Оперативную доставку'); ?>
-                </td>
-              </tr>
-            </table>
-          </div>
-          <!--[if (gte mso 9)|(IE)]>
-          </td><td width="150" valign="top">
-          <![endif]-->
-          <div class="column">
-            <table width="100%">
-              <tr>
-                <td class="inner">
-                  <img src="<?=$img6src;?>" border="0" style="width:108px;height:108px;max-width:100%;"/><div style="height: 10px; line-height: 10px; font-size: 7px;"></div>
-                  <?= $m_verticalPadding; ?>
-                  <?php showText('Помощь с макетом и образцы'); ?>
-                </td>
-              </tr>
-            </table>
-          </div>
-          <!--[if (gte mso 9)|(IE)]>
-          </td><td width="150" valign="top">
-          <![endif]-->
-          <div class="column">
-            <table width="100%">
-              <tr>
-                <td class="inner">
-                  <img src="<?=$img7src;?>" border="0" style="width:108px;height:108px;max-width:100%;"/><div style="height: 10px; line-height: 10px; font-size: 7px;"></div>
-                  <?= $m_verticalPadding; ?>
-                  <?php showText('Отдельную упаковку каждого предмета'); ?>
-                </td>
-              </tr>
-            </table>
-          </div>
-          <!--[if (gte mso 9)|(IE)]>
-          </td>
-          <td width="150" valign="top">
-          <![endif]-->
-          <div class="column">
-            <table width="100%">
-              <tr>
-                <td class="inner">
-                  <img src="<?=$img8src;?>" border="0" style="width:108px;height:108px;max-width:100%;"/><div style="height: 10px; line-height: 10px; font-size: 7px;"></div>
-                  <?= $m_verticalPadding; ?>
-                  <?php showText('Строгое соблюдение сроков'); ?>
-                </td>
-              </tr>
-            </table>
-          </div>
-          <!--[if (gte mso 9)|(IE)]>
-          </td>
-          </tr>
-          </table>
-          <![endif]-->
-        </td>
-      </tr>
-    </table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tr>
+    <td align="center" valign="top"><img src="<?=$img5src;?>" border="0" style="display: block;height:108px;max-width:100%;"/><div style="height: 10px; line-height: 10px; font-size: 7px;"></div></td>
+    <td style="width: 5px; max-width: 5px; min-width: 5px;" width="5"></td>
+    <td align="center" valign="top"><img src="<?=$img6src;?>" border="0" style="display: block;height:108px;max-width:100%;"/><div style="height: 10px; line-height: 10px; font-size: 7px;"></div></td>
+    <td style="width: 5px; max-width: 5px; min-width: 5px;" width="5"></td>
+    <td align="center" valign="top"><img src="<?=$img7src;?>" border="0" style="display: block;height:108px;max-width:100%;"/><div style="height: 10px; line-height: 10px; font-size: 7px;"></div></td>
+    <td style="width: 5px; max-width: 5px; min-width: 5px;" width="5"></td>
+    <td align="center" valign="top"><img src="<?=$img8src;?>" border="0" style="display: block;height:108px;max-width:100%;"/><div style="height: 10px; line-height: 10px; font-size: 7px;"></div></td>
+  </tr>
+  <tr>
+    <td align="center" valign="middle"><font color="#000000" face="Arial, sans-serif" style="font-size: 12px; line-height: 14px;"><span style="font-family: Arial, Tahoma, Geneva, sans-serif; color: #000000; font-size: 12px; line-height: 14px;">Оперативную доставку</span></font></td>
+    <td style="width: 5px; max-width: 5px; min-width: 5px;" width="5"></td>
+    <td align="center" valign="middle"><font color="#000000" face="Arial, sans-serif" style="font-size: 12px; line-height: 14px;"><span style="font-family: Arial, Tahoma, Geneva, sans-serif; color: #000000; font-size: 12px; line-height: 14px;">Помощь с макетом и образцы</span></font></td>
+    <td style="width: 5px; max-width: 5px; min-width: 5px;" width="5"></td>
+    <td align="center" valign="middle" align="center" valign="middle"><font color="#000000" face="Arial, sans-serif" style="font-size: 12px; line-height: 14px;"><span style="font-family: Arial, Tahoma, Geneva, sans-serif; color: #000000; font-size: 12px; line-height: 14px;">Отдельная упаковка каждого предмета</span></font></td>
+    <td style="width: 5px; max-width: 5px; min-width: 5px;" width="5"></td>
+    <td align="center" valign="middle"><font color="#000000" face="Arial, sans-serif" style="font-size: 12px; line-height: 14px;"><span style="font-family: Arial, Tahoma, Geneva, sans-serif; color: #000000; font-size: 12px; line-height: 14px;">Строгое соблюдение сроков</span></font></td>
+  </tr>
+</table>

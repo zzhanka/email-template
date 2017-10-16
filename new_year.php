@@ -1,5 +1,5 @@
 <?php
-$isTest = false;
+$isTest = true;
 
 if ($isTest) {
   $img1src = 'images/new_year/podarki_na_noviy_god.jpg';
@@ -205,7 +205,7 @@ $xl_verticalPadding = '<div style="height: 50px; line-height: 9px; font-size: 7p
       <![endif]-->
       <table class="outer" align="center">
         <tr>
-          <td class="two-column">
+          <td class="two-column two-column_left">
             <!--[if (gte mso 9)|(IE)]>
             <table width="100%">
             <tr>
@@ -216,6 +216,7 @@ $xl_verticalPadding = '<div style="height: 50px; line-height: 9px; font-size: 7p
                 <tr>
                   <td valign="top">
                     <div style="display: block; max-width: 372px;width: 372px;"><a href="https://printio.ru/full_print_tees/55667"><img alt="img" src="<?=$img2src;?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 372px; max-width: 100%;" /></a></div>
+                    <?= $s_verticalPadding; ?>
                   </td>
                   <?= $horizontalPadding; ?>
                 </tr>
@@ -290,7 +291,7 @@ $xl_verticalPadding = '<div style="height: 50px; line-height: 9px; font-size: 7p
       <![endif]-->
       <table class="outer" align="center">
         <tr>
-          <td class="two-column">
+          <td class="two-column two-column_left">
             <!--[if (gte mso 9)|(IE)]>
             <table width="100%">
             <tr>
@@ -525,14 +526,14 @@ $xl_verticalPadding = '<div style="height: 50px; line-height: 9px; font-size: 7p
       <table class="outer" align="center">
         <tr>
           <td class="inner">
-            <div style="display: block; max-width: 270px;"><a href="https://printio.ru/full_print_tees/55667"><img alt="img" src="<?= $img10src; ?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 270px; max-width: 100%;" /></a></div>
+            <div style="display: block; max-width: 270px;"><a href="http://printio.ru/a742d7f8755260cee66b7d802c862833"><img alt="белые кружки с печатью" src="<?= $img10src; ?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 270px; max-width: 100%;" /></a></div>
             <?= $s_verticalPadding; ?>
             <?php showText('белые кружки с печатью'); ?>
             <?= $m_verticalPadding; ?>
           </td>
           <?= $horizontalPadding; ?>
           <td class="inner">
-            <div style="display: block; max-width: 270px;"><a href="https://printio.ru/full_print_tees/53293"><img alt="img" src="<?= $img11src; ?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 270px; max-width: 100%;" /></a></div>
+            <div style="display: block; max-width: 270px;"><a href="http://printio.ru/9f71b03ff3904414c8e8d674d88837fe"><img alt="кружки с цветными ручками и ободком с печатью" src="<?= $img11src; ?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 270px; max-width: 100%;" /></a></div>
             <?= $s_verticalPadding; ?>
             <?php showText('кружки с цветными ручками и ободком с печатью'); ?>
             <?= $m_verticalPadding; ?>
@@ -541,14 +542,14 @@ $xl_verticalPadding = '<div style="height: 50px; line-height: 9px; font-size: 7p
         <tr>
           
           <td class="inner">
-            <div style="display: block; max-width: 270px;"><a href="https://printio.ru/full_print_tees/55667"><img alt="img" src="<?= $img12src; ?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 270px; max-width: 100%;" /></a></div>
+            <div style="display: block; max-width: 270px;"><a href="http://printio.ru/acf6378183943f928668778335e3f08f"><img alt="футболка с полной запечаткой мужская" src="<?= $img12src; ?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 270px; max-width: 100%;" /></a></div>
             <?= $s_verticalPadding; ?>
             <?php showText('футболка с полной запечаткой мужская'); ?>
             <?= $m_verticalPadding; ?>
           </td>
           <?= $horizontalPadding; ?>
           <td class="inner">
-            <div style="display: block; max-width: 270px;"><a href="https://printio.ru/full_print_tees/53293"><img alt="img" src="<?= $img13src; ?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 270px; max-width: 100%;" /></a></div>
+            <div style="display: block; max-width: 270px;"><a href="http://printio.ru/34936659eb3bc68c37324b3b6655a028"><img alt="футболка с полной запечаткой женская" src="<?= $img13src; ?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 270px; max-width: 100%;" /></a></div>
             <?= $s_verticalPadding; ?>
             <?php showText('футболка с полной запечаткой женская'); ?>
             <?= $m_verticalPadding; ?>
@@ -558,14 +559,14 @@ $xl_verticalPadding = '<div style="height: 50px; line-height: 9px; font-size: 7p
         <tr>
   
           <td class="inner">
-            <div style="display: block; max-width: 270px;"><a href="https://printio.ru/full_print_tees/55667"><img alt="img" src="<?= $img14src; ?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 270px; max-width: 100%;" /></a></div>
+            <div style="display: block; max-width: 270px;"><a href="http://printio.ru/355168a7b65f55267790d5f8c5f81697"><img alt="свитшот с полной запечаткой" src="<?= $img14src; ?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 270px; max-width: 100%;" /></a></div>
             <?= $s_verticalPadding; ?>
             <?php showText('свитшот с полной запечаткой'); ?>
             <?= $m_verticalPadding; ?>
           </td>
           <?= $horizontalPadding; ?>
           <td class="inner">
-            <div style="display: block; max-width: 270px;"><a href="https://printio.ru/full_print_tees/53293"><img alt="img" src="<?= $img15src; ?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 270px; max-width: 100%;" /></a></div>
+            <div style="display: block; max-width: 270px;"><a href="http://printio.ru/e0f75d565434ab059922ce61048ac9a8"><img alt="свитшот унисекс" src="<?= $img15src; ?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 270px; max-width: 100%;" /></a></div>
             <?= $s_verticalPadding; ?>
             <?php showText('свитшот унисекс'); ?>
             <?= $m_verticalPadding; ?>
@@ -594,11 +595,11 @@ $xl_verticalPadding = '<div style="height: 50px; line-height: 9px; font-size: 7p
         <tr>
           
           <td class="inner">
-            <div style="display: block; max-width: 275px;"><a href="https://printio.ru/full_print_tees/55667"><img alt="img" src="<?= $img19src; ?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 275px; max-width: 100%;" /></a></div>
+            <div style="display: block; max-width: 275px;"><a href="http://printio.ru/4f942f9648a676c993fb433b16f39f43"><img alt="флисовый плед с вашим логотипом" src="<?= $img19src; ?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 275px; max-width: 100%;" /></a></div>
           </td>
           <?= $horizontalPadding; ?>
           <td class="inner">
-            <div style="display: block; max-width: 275px;"><a href="https://printio.ru/full_print_tees/53293"><img alt="img" src="<?= $img21src; ?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 275px; max-width: 100%;" /></a></div>
+            <div style="display: block; max-width: 275px;"><a href="http://printio.ru/7a6565e5465537fd5352ce0f48b0d73a"><img alt="флисовый плед с вашим логотипом" src="<?= $img21src; ?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 275px; max-width: 100%;" /></a></div>
           </td>
         
         </tr>
@@ -633,11 +634,11 @@ $xl_verticalPadding = '<div style="height: 50px; line-height: 9px; font-size: 7p
         <tr>
           
           <td class="inner">
-            <div style="display: block; max-width: 275px;"><a href="https://printio.ru/full_print_tees/55667"><img alt="img" src="<?= $img20src; ?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 275px; max-width: 100%;" /></a></div>
+            <div style="display: block; max-width: 275px;"><a href="http://printio.ru/88e531a7e71a87a59f34d2eb4c2455ce"><img alt="img" src="<?= $img20src; ?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 275px; max-width: 100%;" /></a></div>
           </td>
           <?= $horizontalPadding; ?>
           <td class="inner">
-            <div style="display: block; max-width: 275px;"><a href="https://printio.ru/full_print_tees/53293"><img alt="img" src="<?= $img22src; ?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 275px; max-width: 100%;" /></a></div>
+            <div style="display: block; max-width: 275px;"><a href="http://printio.ru/ebb4da3bba848db4e07a046778813452"><img alt="img" src="<?= $img22src; ?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 275px; max-width: 100%;" /></a></div>
           </td>
                 
         </tr>
@@ -673,13 +674,13 @@ $xl_verticalPadding = '<div style="height: 50px; line-height: 9px; font-size: 7p
         <tr>
           
           <td class="inner">
-            <div style="display: block; max-width: 275px;"><a href="https://printio.ru/full_print_tees/55667"><img alt="img" src="<?= $img23src; ?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 275px; max-width: 100%;" /></a></div>
+            <div style="display: block; max-width: 275px;"><a href="http://printio.ru/99e76bc12d096463ebdd6c84eb97d326"><img alt="плакаты" src="<?= $img23src; ?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 275px; max-width: 100%;" /></a></div>
             <?= $s_verticalPadding; ?>
             <?php showText('плакаты'); ?>
           </td>
           <?= $horizontalPadding; ?>
           <td class="inner">
-            <div style="display: block; max-width: 275px;"><a href="https://printio.ru/full_print_tees/53293"><img alt="img" src="<?= $img24src; ?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 275px; max-width: 100%;" /></a></div>
+            <div style="display: block; max-width: 275px;"><a href="http://printio.ru/1ef87a8ca8ed9a9fbc9ca7b0bcd7cd4f"><img alt="одностраничные календари" src="<?= $img24src; ?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 275px; max-width: 100%;" /></a></div>
             <?= $s_verticalPadding; ?>
             <?php showText('одностраничные календари'); ?>
           </td>
@@ -708,11 +709,11 @@ $xl_verticalPadding = '<div style="height: 50px; line-height: 9px; font-size: 7p
         <tr>
           
           <td class="inner">
-            <div style="display: block; max-width: 275px;"><a href="https://printio.ru/full_print_tees/55667"><img alt="img" src="<?= $img25src; ?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 275px; max-width: 100%;" /></a></div>
+            <div style="display: block; max-width: 275px;"><a href="http://printio.ru/23180e4d55e69bcde7310d43b7a94ccc"><img alt="чехлы для телефонов" src="<?= $img25src; ?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 275px; max-width: 100%;" /></a></div>
           </td>
           <?= $horizontalPadding; ?>
           <td class="inner">
-            <div style="display: block; max-width: 275px;"><a href="https://printio.ru/full_print_tees/53293"><img alt="img" src="<?= $img26src; ?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 275px; max-width: 100%;" /></a></div>
+            <div style="display: block; max-width: 275px;"><a href="http://printio.ru/af85bc4448d736489802d619ebe6ef7e"><img alt="чехлы для телефонов" src="<?= $img26src; ?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 275px; max-width: 100%;" /></a></div>
           </td>
                 
         </tr>
@@ -748,13 +749,13 @@ $xl_verticalPadding = '<div style="height: 50px; line-height: 9px; font-size: 7p
         <tr>
     
             <td class="inner">
-              <div style="display: block; max-width: 275px;"><a href="https://printio.ru/full_print_tees/55667"><img alt="img" src="<?= $img27src; ?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 275px; max-width: 100%;" /></a></div>
+              <div style="display: block; max-width: 275px;"><a href="http://printio.ru/588ddf12ab0445d9121d37a51c8c438f"><img alt="коврики для мышки" src="<?= $img27src; ?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 275px; max-width: 100%;" /></a></div>
               <?= $s_verticalPadding; ?>
               <?php showText('коврики для мышки'); ?>
             </td>
           
             <td class="inner">
-              <div style="display: block; max-width: 275px;"><a href="https://printio.ru/full_print_tees/53293"><img alt="img" src="<?= $img28src; ?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 275px; max-width: 100%;" /></a></div>
+              <div style="display: block; max-width: 275px;"><a href="http://printio.ru/9fd0280d5d6e300e7f1c9490df714c1b"><img alt="обложки для паспорта" src="<?= $img28src; ?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 275px; max-width: 100%;" /></a></div>
               <?= $s_verticalPadding; ?>
               <?php showText('обложки для паспорта'); ?>
             </td>
@@ -934,7 +935,7 @@ $xl_verticalPadding = '<div style="height: 50px; line-height: 9px; font-size: 7p
         <tr>
           <?= $horizontalPadding; ?>
           <td align="center" valign="middle" height="62">
-           <a href="#" target="_blank" style="display: block; width: 100%; height: 62px; font-family: Verdana, Tahoma, Geneva, sans-serif; color: #ffffff; font-size: 16px; line-height: 62px; text-decoration: none; white-space: nowrap;">
+           <a href="mailto:contact@printio.ru" target="_blank" style="display: block; width: 100%; height: 62px; font-family: Verdana, Tahoma, Geneva, sans-serif; color: #ffffff; font-size: 16px; line-height: 62px; text-decoration: none; white-space: nowrap;">
             <font face="Verdana, Tahoma, Geneva, sans-serif" color="#ffffff" style="font-size: 16px; line-height: 62px; text-decoration: none; white-space: nowrap;">
               <span style="font-family: Arial, Verdana, Tahoma, Geneva, sans-serif; color: #ffffff; font-size: 16px; line-height: 62px; text-decoration: none; white-space: nowrap;">ЗАКАЗАТЬ&nbsp;ПОДАРКИ&nbsp;НА&nbsp;САЙТЕ</span>
             </font>

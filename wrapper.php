@@ -92,6 +92,11 @@
       text-align: center;
       font-size: 0;
   }
+
+ .two-column.two-column_left {
+  text-align: left;
+ }
+
   .two-column .column {
     width: 100%;
     max-width: 300px;
@@ -204,7 +209,7 @@
 </head>
 
 <?php
-$isTest = false;
+$isTest = true;
 
 if ($isTest) {
   $logo = 'images/logo.jpg';
@@ -256,7 +261,8 @@ if ($isTest) {
                   <td style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;">
                   <div style="display:block;max-width:140px;"><a href="https://printio.ru/" style="text-decoration:none;display:block;width:140px;max-width:100%;color:#ee6a56;" target="_blank"><img alt="Printio" border="0" height="61px" src="<?= $logo; ?>" style="display:block;width:140px;max-width:100%;border-width:0;" width="140" /></a></div>
                   </td>
-                  <td style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;"><u><a href="https://printio.ru/classic_tees/new" style="font-family:Arial, Tahoma, Geneva, sans-serif;color:#007F00;font-size:16px;line-height:18px;font-weight:underline;text-decoration:none;" target="_self"><font color="#007F00" face="Arial, sans-serif" style="font-size:16px;font-weight:underline;line-height:18px;text-decoration:none;"><span style="font-family:Arial, Tahoma, Geneva, sans-serif;font-weight:underline;color:#000000;font-size:16px;line-height:18px;text-decoration:none;">СВОЙ ДИЗАЙН</span> </font> </a></u></td>
+                  <td style="width:15px;max-width:15px;min-width:15px;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" width="15"></td>
+                  <td style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;"><u><a href="https://printio.ru/classic_tees/new" style="font-family:Arial, Tahoma, Geneva, sans-serif;color:#007F00;font-size:16px;line-height:18px;font-weight:underline;text-decoration:none;" target="_self"><font color="#007F00" face="Arial, sans-serif" style="font-size:16px;font-weight:underline;line-height:18px;text-decoration:none;"><span style="font-family:Arial, Tahoma, Geneva, sans-serif;font-weight:underline;color:#000000;font-size:16px;line-height:18px;text-decoration:none;">СВОЙ&nbsp;ДИЗАЙН</span> </font> </a></u></td>
                   <td style="padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;"><u><a href="https://printio.ru/store/clothing" style="font-family:Arial, Tahoma, Geneva, sans-serif;font-weight:underline;color:#000000;font-size:16px;line-height:18px;text-decoration:none;" target="_self"><font color="#007F00" face="Arial, sans-serif" style="font-size:16px;font-weight:underline;line-height:18px;text-decoration:none;"><span style="font-family:Arial, Tahoma, Geneva, sans-serif;color:#000000;font-size:16px;line-height:18px;text-decoration:none;">МАГАЗИН</span> </font> </a></u></td>
                   <td style="width:15px;max-width:15px;min-width:15px;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" width="15"></td>
                 </tr>
