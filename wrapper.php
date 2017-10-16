@@ -204,7 +204,7 @@
 </head>
 
 <?php
-$isTest = false;
+$isTest = true;
 
 if ($isTest) {
   $logo = 'images/logo.jpg';

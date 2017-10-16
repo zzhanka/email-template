@@ -1,5 +1,5 @@
 <?php
-$isTest = false;
+$isTest = true;
 
 if ($isTest) {
   $img1src = 'images/new_year/podarki_na_noviy_god.jpg';
@@ -227,7 +227,8 @@ $xl_verticalPadding = '<div style="height: 50px; line-height: 9px; font-size: 7p
             <div class="column_40">
               <table width="100%">
                 <tr>
-                  <td class="inner" align="left" valign="center">
+                  <?= $horizontalPadding; ?>
+                  <td align="left" valign="center">
 
                     <?php 
                       showText('<span class="disc">●</span> кружка');
@@ -311,7 +312,8 @@ $xl_verticalPadding = '<div style="height: 50px; line-height: 9px; font-size: 7p
             <div class="column_40">
               <table width="100%">
                 <tr>
-                  <td class="inner" align="left" valign="center">
+                  <?= $horizontalPadding; ?>
+                  <td align="left" valign="center">
 
                     <?php 
                       showText('<span class="disc">●</span> футболка / свитшот');
@@ -432,7 +434,7 @@ $xl_verticalPadding = '<div style="height: 50px; line-height: 9px; font-size: 7p
                       <tr>
                         <td align="center">
                           <!-- BUTTON (START) -->
-                          <table cellpadding="0" cellspacing="0" border="0" width="250" style="width: 250px !important; max-width: 250px; min-width: 250px; background: #00cf67; border-radius: 3px;">
+                          <table cellpadding="0" cellspacing="0" border="0" width="250" style="width: 250px !important; max-width: 250px; min-width: 250px; background: #4caf50; border-radius: 3px;">
                             <tr>
                               <?= $horizontalPadding; ?>
                               <td align="center" valign="middle" height="62">
