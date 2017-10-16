@@ -73,17 +73,17 @@ if ($isTest) {
 
 function showText($text)
 {
-  echo '<font color="#505354" face="verdana, arial, sans-serif" style="font-size: 16px; line-height: 18px;"><span style="font-family: verdana, arial, sans-serif; color: #505354; font-size: 16px; line-height: 18px;">$text</span></font>';
+  echo "<font color=\"#505354\" face=\"verdana, arial, sans-serif\" style=\"font-size: 16px; line-height: 18px;\"><span style=\"font-family: verdana, arial, sans-serif; color: #505354; font-size: 16px; line-height: 18px;\">$text</span></font>";
 }
 
 function showHeaderText($text)
 {
-  echo '<font color="#231f1c" face="verdana, arial, sans-serif" style="font-size: 16px; line-height: 18px;"><span style="font-family: verdana, arial, sans-serif; color: #231f1c; font-size: 16px; line-height: 18px;">$text</span></font>';
+  echo "<font color=\"#231f1c\" face=\"verdana, arial, sans-serif\" style=\"font-size: 16px; line-height: 18px;\"><span style=\"font-family: verdana, arial, sans-serif; color: #231f1c; font-size: 16px; line-height: 18px;\">$text</span></font>";
 }
 
 function showBigText($text)
 {
-  echo '<font color="#505354" face="verdana, arial, sans-serif" style="font-size: 18px; line-height: 20px;""><span style="font-family: verdana, arial, sans-serif; color: #505354; font-size: 18px; line-height: 20px;"">$text</span></font>';
+  echo "<font color=\"#505354\" face=\"verdana, arial, sans-serif\" style=\"font-size: 18px; line-height: 20px;\"><span style=\"font-family: verdana, arial, sans-serif; color: #505354; font-size: 18px; line-height: 20px;\">$text</span></font>";
 }
 
 $horizontalPadding = '<td style="width:15px;max-width:15px;min-width:15px;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" width="15"></td>';
