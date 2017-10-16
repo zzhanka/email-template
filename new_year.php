@@ -95,7 +95,7 @@ $m_verticalPadding = '<div style="height: 20px; line-height: 9px; font-size: 7px
 $l_verticalPadding = '<div style="height: 30px; line-height: 9px; font-size: 7px;"></div>';
 $xl_verticalPadding = '<div style="height: 50px; line-height: 9px; font-size: 7px;"></div>';
 
-$link_style = "style='text-decoration:underline; font-family: verdana, arial, sans-serif; color: #231f1c; font-size: 16px; line-height: 18px;";
+$link_style = "style=\"text-decoration:underline; font-family: verdana, arial, sans-serif; color: #231f1c; font-size: 16px; line-height: 18px;\" ";
 
 ?>
 
