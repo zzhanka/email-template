@@ -203,7 +203,7 @@ $xl_verticalPadding = '<div style="height: 50px; line-height: 9px; font-size: 7p
       <tr>
       <td>
       <![endif]-->
-      <table class="outer" align="center">
+      <table class="outer" align="left">
         <tr>
           <td class="two-column two-column_left">
             <!--[if (gte mso 9)|(IE)]>
@@ -215,7 +215,7 @@ $xl_verticalPadding = '<div style="height: 50px; line-height: 9px; font-size: 7p
               <table width="100%">
                 <tr>
                   <td valign="top">
-                    <div style="display: block; max-width: 372px;width: 372px;"><a href="https://printio.ru/full_print_tees/55667"><img alt="img" src="<?=$img2src;?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 372px; max-width: 100%;" /></a></div>
+                    <div style="display: block; max-width: 372px;width: 372px;"><img alt="img" src="<?=$img2src;?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 372px; max-width: 100%;" /></div>
                     <?= $s_verticalPadding; ?>
                   </td>
                   <?= $horizontalPadding; ?>
@@ -301,7 +301,7 @@ $xl_verticalPadding = '<div style="height: 50px; line-height: 9px; font-size: 7p
               <table width="100%">
                 <tr>
                   <td valign="top">
-                    <div style="display: block; max-width: 372px;width: 372px;"><a href="https://printio.ru/full_print_tees/55667"><img alt="img" src="<?=$img3src;?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 372px; max-width: 100%;" /></a></div>
+                    <div style="display: block; max-width: 372px;width: 372px;"><img alt="img" src="<?=$img3src;?>" style="border: 0; outline: none; text-decoration: none; display: block; width: 372px; max-width: 100%;" /></div>
                     <?= $s_verticalPadding; ?>
                   </td>
                   <?=$horizontalPadding;?>
