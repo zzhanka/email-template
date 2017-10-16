@@ -93,9 +93,9 @@
       font-size: 0;
   }
 
- .two-column.two-column_left {
-  text-align: left;
- }
+   .two-column_left {
+    text-align: left;
+   }
 
   .two-column .column {
     width: 100%;
