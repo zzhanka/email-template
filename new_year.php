@@ -245,6 +245,7 @@ $link_style = "style=\"text-decoration:underline; font-family: verdana, arial, s
                       showText('<span class="disc">●</span> шоколадные наборы');
                       echo $br;
                     ?>
+                    <?= $m_verticalPadding; ?>
 
                   </td>
                 </tr>
