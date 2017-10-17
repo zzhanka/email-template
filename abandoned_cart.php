@@ -57,13 +57,14 @@ if ($isTest) {
       <?= $horizontalPadding; ?>
     </tr>
   </table>
+
+<?= $s_verticalPadding; ?>
+
   <!--[if (gte mso 9)|(IE)]>
   </td>
   </tr>
   </table>
   <![endif]-->
-
-<?= $s_verticalPadding; ?>
 <table class="outer" align="left">
   <tr>
     <td align="center">
@@ -112,11 +113,8 @@ if ($isTest) {
           <?= $horizontalPadding; ?>
         </tr>
       </table>
-      <!--[if (gte mso 9)|(IE)]>
-      </td>
-      </tr>
-      </table>
-      <![endif]-->
+
+      <?= $m_verticalPadding; ?>
 
       <!--[if (gte mso 9)|(IE)]>
       <table width="600" align="center">
