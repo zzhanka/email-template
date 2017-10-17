@@ -70,7 +70,23 @@ if ($isTest) {
           <td align="center" valign="middle" height="62">
            <a href="https://printio.ru/cart" target="_blank" style="display: block; width: 100%; height: 62px; font-family: Verdana, Tahoma, Geneva, sans-serif; color: #ffffff; font-size: 16px; line-height: 62px; text-decoration: none; white-space: nowrap;">
             <font face="Verdana, Tahoma, Geneva, sans-serif" color="#ffffff" style="font-size: 16px; line-height: 62px; text-decoration: none; white-space: nowrap;">
-              <span style="font-family: Arial, Verdana, Tahoma, Geneva, sans-serif; color: #ffffff; font-size: 16px; line-height: 62px; text-decoration: none; white-space: nowrap;">ПЕРЕЙТИ&nbsp;В&nbsp;КОРЗИНУ</span>
+              <span style="font-family: Arial, Verdana, Tahoma, Geneva, sans-serif; color: #ffffff; font-size: 16px; line-height: 62px; text-decoration: none; white-space: nowrap;">ЗАВЕРШИТЬ&nbsp;ЗАКАЗ</span>
+            </font>
+           </a>
+          </td>
+          <?= $horizontalPadding; ?>
+        </tr>
+      </table>
+      <!-- BUTTON (END) -->
+      <?= $s_verticalPadding; ?>
+      <!-- BUTTON (START) -->
+      <table cellpadding="0" cellspacing="0" border="0" width="250" style="width: 250px !important; max-width: 250px; min-width: 250px; background: #2e8bd0; border-radius: 3px;">
+        <tr>
+          <?= $horizontalPadding; ?>
+          <td align="center" valign="middle" height="62">
+           <a href="https://printio.ru/store" target="_blank" style="display: block; width: 100%; height: 62px; font-family: Verdana, Tahoma, Geneva, sans-serif; color: #ffffff; font-size: 16px; line-height: 62px; text-decoration: none; white-space: nowrap;">
+            <font face="Verdana, Tahoma, Geneva, sans-serif" color="#ffffff" style="font-size: 16px; line-height: 62px; text-decoration: none; white-space: nowrap;">
+              <span style="font-family: Arial, Verdana, Tahoma, Geneva, sans-serif; color: #ffffff; font-size: 16px; line-height: 62px; text-decoration: none; white-space: nowrap;">ПРОДОЛЖИТЬ&nbsp;ПОКУПКИ</span>
             </font>
            </a>
           </td>
@@ -124,11 +140,7 @@ if ($isTest) {
           </td>
         </tr>
       </table>
-      <!--[if (gte mso 9)|(IE)]>
-      </td>
-      </tr>
-      </table>
-      <![endif]-->
+      <?= $m_verticalPadding; ?>
     </td>
     <?= $horizontalPadding; ?>
   </tr>
