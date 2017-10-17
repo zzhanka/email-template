@@ -12,59 +12,64 @@ if ($isTest) {
 ?>
 
 <?= $s_verticalPadding; ?>
-  <!-- BANNER (START) -->
+<!-- BANNER (START) -->
 
-  <!--[if (gte mso 9)|(IE)]>
-  <table width="600" align="center">
+<!--[if (gte mso 9)|(IE)]>
+<table width="600" align="center">
+<tr>
+<td>
+<![endif]-->
+<table class="outer" align="center">
   <tr>
-  <td>
-  <![endif]-->
-  <table class="outer" align="center">
-    <tr>
-      <td>
-        <table class="outer" align="center">
-          <tr>
-            <td class="full-width-image">
-              <img alt="Hatico" src="<?= $img1src; ?>" />
-            </td>
-          </tr>
-        </table>
-      </td>
-    </tr>
-  </table>
-  <!--[if (gte mso 9)|(IE)]>
-  </td>
+    <td>
+      <table class="outer" align="center">
+        <tr>
+          <td class="full-width-image">
+            <img alt="Hatico" src="<?= $img1src; ?>" />
+          </td>
+        </tr>
+      </table>
+    </td>
   </tr>
-  </table>
-  <![endif]-->
+</table>
+<!--[if (gte mso 9)|(IE)]>
+</td>
+</tr>
+</table>
+<![endif]-->
+<!-- BANNER (END) -->
 
-  <!-- BANNER (END) -->
 <?= $m_verticalPadding; ?>
 
-  <!--[if (gte mso 9)|(IE)]>
-  <table width="600" align="center">
+<!--[if (gte mso 9)|(IE)]>
+<table width="600" align="center">
+<tr>
+<td>
+<![endif]-->
+<table class="outer" align="left">
   <tr>
-  <td>
-  <![endif]-->
-  <table class="outer" align="left">
-    <tr>
-      <?= $horizontalPadding; ?>
-      <td>
-        <?php showHeaderText('ЗДРАВСТВУЙТЕ!'); ?>
-        <?= $s_verticalPadding; ?>
-        <?php showText('Буквально вчера Вы начали оформлять заказ, но не успели завершить покупку. Выбранные товары все ещё в корзине. Их можно посмотреть здесь:'); ?>
-      </td>
-      <?= $horizontalPadding; ?>
-    </tr>
-  </table>
+    <?= $horizontalPadding; ?>
+    <td>
+      <?php showHeaderText('ЗДРАВСТВУЙТЕ!'); ?>
+      <?= $s_verticalPadding; ?>
+      <?php showText('Буквально вчера Вы начали оформлять заказ, но не успели завершить покупку. Выбранные товары все ещё в корзине. Их можно посмотреть здесь:'); ?>
+    </td>
+    <?= $horizontalPadding; ?>
+  </tr>
+</table>
+<!--[if (gte mso 9)|(IE)]>
+</td>
+</tr>
+</table>
+<![endif]-->
 
 <?= $s_verticalPadding; ?>
 
-  <!--[if (gte mso 9)|(IE)]>
-  </td>
-  </tr>
-  </table>
-  <![endif]-->
+<!--[if (gte mso 9)|(IE)]>
+<table width="600" align="center">
+<tr>
+<td>
+<![endif]--> 
 <table class="outer" align="left">
   <tr>
     <td align="center">
@@ -113,6 +118,11 @@ if ($isTest) {
           <?= $horizontalPadding; ?>
         </tr>
       </table>
+      <!--[if (gte mso 9)|(IE)]>
+      </td>
+      </tr>
+      </table>
+      <![endif]-->
 
       <?= $m_verticalPadding; ?>
 
@@ -141,4 +151,10 @@ if ($isTest) {
     </td>
   </tr>
 </table>
+<!--[if (gte mso 9)|(IE)]>
+</td>
+</tr>
+</table>
+<![endif]-->
+
 <?= $l_verticalPadding; ?>
