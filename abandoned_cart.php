@@ -124,8 +124,9 @@ if ($isTest) {
       <table class="outer" align="center">
         <tr>
           <td width="125px">
-            <img alt="Userpic" src="<?= $img2src; ?>" />
+            <img style="max-width: 100%" alt="Userpic" src="<?= $img2src; ?>" />
           </td>
+          <?= $s_verticalPadding; ?>
           <td>
             <?php showText('<i>"Очень дружелюбный и красивый персонал!) Всем доволен, только от метро идти далеко. Но это так. Мелкие неудобства! Еще не раз воспользуюсь Вашим сервисом. Удачи!"</i>'); ?>
           </td>
