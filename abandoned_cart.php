@@ -61,6 +61,7 @@ if ($isTest) {
   </tr>
 
   <tr>
+    <?= $horizontalPadding; ?>
     <td align="center">
       <!-- BUTTON (START) -->
       <table cellpadding="0" cellspacing="0" border="0" width="250" style="width: 250px !important; max-width: 250px; min-width: 250px; background: #4caf50; border-radius: 3px;">
@@ -80,6 +81,7 @@ if ($isTest) {
 
       <?= $l_verticalPadding; ?>
     </td>
+    <?= $horizontalPadding; ?>
   </tr>
 
   <tr>
@@ -99,15 +101,17 @@ if ($isTest) {
       ?>
       <?= $s_verticalPadding; ?>
       <?php showText('Гарантия счастья: больше 100 000 клиентов остались довольны покупкой на Принтио. Закажите и вы будете среди них!'); ?>
+      <?= $m_verticalPadding; ?>
     </td>
     <?= $horizontalPadding; ?>
   </tr>
 
 
 
-      <?= $m_verticalPadding; ?>
+      
 
   <tr>
+    <?= $horizontalPadding; ?>
     <td>
       <table class="outer" align="center">
         <tr>
@@ -126,6 +130,7 @@ if ($isTest) {
       </table>
       <![endif]-->
     </td>
+    <?= $horizontalPadding; ?>
   </tr>
 
 </table>
