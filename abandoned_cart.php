@@ -52,25 +52,14 @@ if ($isTest) {
     <td>
       <?php showHeaderText('ЗДРАВСТВУЙТЕ!'); ?>
       <?= $s_verticalPadding; ?>
+
       <?php showText('Буквально вчера Вы начали оформлять заказ, но не успели завершить покупку. Выбранные товары все ещё в корзине. Их можно посмотреть здесь:'); ?>
+
+      <?= $s_verticalPadding; ?>
     </td>
     <?= $horizontalPadding; ?>
   </tr>
-</table>
-<!--[if (gte mso 9)|(IE)]>
-</td>
-</tr>
-</table>
-<![endif]-->
 
-<?= $s_verticalPadding; ?>
-
-<!--[if (gte mso 9)|(IE)]>
-<table width="600" align="center">
-<tr>
-<td>
-<![endif]--> 
-<table class="outer" align="left">
   <tr>
     <td align="center">
       <!-- BUTTON (START) -->
@@ -90,47 +79,36 @@ if ($isTest) {
       <!-- BUTTON (END) -->
 
       <?= $l_verticalPadding; ?>
+    </td>
+  </tr>
 
-      <!--[if (gte mso 9)|(IE)]>
-      <table width="600" align="center">
-      <tr>
-      <td>
-      <![endif]-->
-      <table class="outer" align="left">
-        <tr>
-          <?= $horizontalPadding; ?>
-          <td>
-            <?php showHeaderText('ПРОБЛЕМЫ С ОФОРМЛЕНИЕМ?'); ?>
-            <?= $s_verticalPadding; ?>
+  <tr>
+    <?= $horizontalPadding; ?>
+    <td>
+      <?php showHeaderText('ПРОБЛЕМЫ С ОФОРМЛЕНИЕМ?'); ?>
+      <?= $s_verticalPadding; ?>
 
-            <?php showText('Мы с радостью поможем с оформлением заказа – свяжитесь с нами любым удобным способом:'); ?>
-            <?= $xs_verticalPadding; ?>
-            <?php 
-              showText('<span class="disc">●</span> онлайн-чат на сайте;');
-              echo $br;
-              showText('<span class="disc">●</span> почта: contact@printio.ru или');
-              echo $br;
-              showText('<span class="disc">●</span> телефон 8(800) 555-32-73.');
-            ?>
-            <?= $s_verticalPadding; ?>
-            <?php showText('Гарантия счастья: больше 100 000 клиентов остались довольны покупкой на Принтио. Закажите и вы будете среди них!'); ?>
-          </td>
-          <?= $horizontalPadding; ?>
-        </tr>
-      </table>
-      <!--[if (gte mso 9)|(IE)]>
-      </td>
-      </tr>
-      </table>
-      <![endif]-->
+      <?php showText('Мы с радостью поможем с оформлением заказа – свяжитесь с нами любым удобным способом:'); ?>
+      <?= $xs_verticalPadding; ?>
+      <?php 
+        showText('<span class="disc">●</span> онлайн-чат на сайте;');
+        echo $br;
+        showText('<span class="disc">●</span> почта: contact@printio.ru или');
+        echo $br;
+        showText('<span class="disc">●</span> телефон 8(800) 555-32-73.');
+      ?>
+      <?= $s_verticalPadding; ?>
+      <?php showText('Гарантия счастья: больше 100 000 клиентов остались довольны покупкой на Принтио. Закажите и вы будете среди них!'); ?>
+    </td>
+    <?= $horizontalPadding; ?>
+  </tr>
+
+
 
       <?= $m_verticalPadding; ?>
 
-      <!--[if (gte mso 9)|(IE)]>
-      <table width="600" align="center">
-      <tr>
-      <td>
-      <![endif]-->
+  <tr>
+    <td>
       <table class="outer" align="center">
         <tr>
           <td width="125px">
@@ -147,9 +125,9 @@ if ($isTest) {
       </tr>
       </table>
       <![endif]-->
-
     </td>
   </tr>
+
 </table>
 <!--[if (gte mso 9)|(IE)]>
 </td>
