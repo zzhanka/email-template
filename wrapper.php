@@ -217,6 +217,32 @@ if ($isTest) {
   $logo = '/ru/user_file?resource=images&amp;user_id=1771961&amp;name=/header/logo.jpg';
 }
 
+function showText($text)
+{
+  echo "<font color=\"#505354\" face=\"verdana, arial, sans-serif\" style=\"font-size: 16px; line-height: 18px;\"><span style=\"font-family: verdana, arial, sans-serif; color: #505354; font-size: 16px; line-height: 18px;\">$text</span></font>";
+}
+
+function showHeaderText($text)
+{
+  echo "<font color=\"#231f1c\" face=\"verdana, arial, sans-serif\" style=\"font-size: 16px; line-height: 18px;\"><span style=\"font-family: verdana, arial, sans-serif; color: #231f1c; font-size: 16px; line-height: 18px;\">$text</span></font>";
+}
+
+function showBigText($text)
+{
+  echo "<font color=\"#505354\" face=\"verdana, arial, sans-serif\" style=\"font-size: 18px; line-height: 20px;\"><span style=\"font-family: verdana, arial, sans-serif; color: #505354; font-size: 18px; line-height: 20px;\">$text</span></font>";
+}
+
+$horizontalPadding = '<td style="width:15px;max-width:15px;min-width:15px;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;" width="15"></td>';
+
+$br = '<div style="height: 5px; line-height: 5px; font-size: 7px;"></div>';
+$xs_verticalPadding = '<div style="height: 9px; line-height: 9px; font-size: 7px;"></div>';
+$s_verticalPadding = '<div style="height: 15px; line-height: 9px; font-size: 7px;"></div>';
+$m_verticalPadding = '<div style="height: 20px; line-height: 9px; font-size: 7px;"></div>';
+$l_verticalPadding = '<div style="height: 30px; line-height: 9px; font-size: 7px;"></div>';
+$xl_verticalPadding = '<div style="height: 50px; line-height: 9px; font-size: 7px;"></div>';
+
+$link_style = "style=\"text-decoration:underline; font-family: verdana, arial, sans-serif; color: #231f1c; font-size: 16px; line-height: 18px;\" ";
+
 ?>
 
 <body>
@@ -231,7 +257,7 @@ if ($isTest) {
             <td>
             <div style="height: 9px; line-height: 9px; font-size: 7px;"></div>
             <font color="#999999" face="Arial, sans-serif" style="font-size: 12px; line-height: 14px;"><span style="font-family: Verdana, Tahoma, Geneva, sans-serif; color: #999999; font-size: 12px; line-height: 14px;">
-              SOME TEXT
+              Вы оставили товары в корзине - им там одиноко. С радостью поможем оформить заказ.
             </span></font>
 
             <div style="height: 9px; line-height: 9px; font-size: 7px;"></div>
@@ -287,7 +313,7 @@ if ($isTest) {
 
       <!-- CONTENT (START) -->
 
-      <?php include_once('new_year.php'); ?>
+      <?php include_once('abandoned_cart.php'); ?>
 
       <!-- CONTENT (END) -->
 
