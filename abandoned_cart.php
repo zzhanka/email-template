@@ -1,5 +1,5 @@
 <?php
-$isTest = false;
+$isTest = true;
 
 if ($isTest) {
   $img1src = 'images/hatico-2.png';
